@@ -1,0 +1,16 @@
+# Ignorar carpetas del IDE y archivos generados
+
+/Java/Clase 1/CicloWhile/nbproject/private/
+/Java/Clase 1/CicloWhile/build/
+/Java/Clase 1/Break-Continue/nbproject/private/
+
+# Ignorar archivos generados por la compilacion
+*.class
+
+# Ignorar otros archivos temporales
+*.log
+
+/Java/Clase 2/EjercicioCiclos01/nbproject/private/
+/Java/Clase 2/EjercicioCiclos01/build/
+/Java/Clase 2/EjercicioCiclos02/nbproject/private/
+/Java/Clase 2/EjercicioCiclos02/build/
