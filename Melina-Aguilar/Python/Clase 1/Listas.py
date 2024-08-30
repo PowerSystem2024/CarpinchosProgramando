@@ -71,6 +71,9 @@ print(len(nombres))     #'Len' es una funcion, nos dara la cantidad de elementos
 # Agregamos un elemento
 
 nombres.append('Marcelo')   # Funcion 'append' nos deja agregar un elemento a una lista
+nombres.append([1, 2, 3])   # Dentro de una lista puede haber otra lista
+nombres.append(True)        # Una lista tambien puede haber un tipo booleano
+nombres.append(10.45)       # Tambien puede tener un float
 print(nombres)              # El elemento agregado se va al final
 
 
