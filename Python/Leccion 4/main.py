@@ -209,3 +209,58 @@ for num in tupla:
 
 # Imprimimos la lista 
 print(lista)
+
+# del cocina #
+
+#Clase 2
+# tipo set
+planetas = {'Marte', 'Jupiter', 'Venus'}
+
+# revisar si un elemento existe dentro de set
+print('Jupiter' in planetas)  # usamos la función in para verificar existencia
+
+# agregar un elemento
+planetas.add('Tierra')  # add es una función
+print(planetas)
+
+# Eliminar elementos, puede arrojar un error si el elemento no existe
+planetas.remove("Jupiter")  # 'Jupiter' debe estar en mayúscula
+# Esta función no nos presenta ningún error
+planetas.discard("Tierra")  # discard no arroja error si el elemento no existe
+print(planetas)
+
+# Limpiar set o conjunto
+planetas.clear()
+print(planetas)  # Esto imprimirá un set vacío
+
+# Eliminar set o conjunto
+del planetas
+
+
+print(planetas) 
+
+#"Messi" :  10
+# UNA LLAVE {} Y UN DICCIONARIO ESTA COMPUESTO POR DOS ELEMENTOS
+# Una llave y un valor
+
+diccionario = {
+    "IDE": "Integrated Development Environment",
+    "POO": "Programación Orientada a Objetos",
+    "SABD":"Sistema de administracion de basde de datos"
+}
+
+print(diccionario)
+
+#VERIFICAR LA CANTIDAD DE ELEMENTOS DEL DICCIONARIO
+print(len(diccionario))
+print(diccionario)
+
+#acceder a un diccionario con la llave
+print(diccionario["IDE"])
+#otra forma de recuperar un elemento
+print(diccionario.get("POO"))
+print(diccionario.get("SABD"))
+#Modificamos elementos
+
+diccionario["IDE"] = "Entorno desarrollo integrado"
+print(diccionario)
