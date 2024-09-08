@@ -9,5 +9,19 @@ public class CapybaraFilms {
 
         System.out.println(peli1);
         System.out.println(peli2);
+
+        Cliente cliente1, cliente2, cliente3;
+        cliente1 = new Cliente("Fernando", "Simich", "40665434", "fersimich@gmail.com");
+        cliente2 = new Cliente("Rosa", "Martinez", "30456435", "rosamartinez@gmail.com");
+        cliente3= new Cliente ("Lautaro", "Martinez", "4564434", "lautimartinez@gmail.com");
+
+
+        System.out.println(cliente1.getNombre());
+        System.out.println(cliente2.toString());
+        System.out.println(cliente2.getApellido());
+
+
+
+
     }
 }
