@@ -1,43 +1,8 @@
 
-// Clase Butaca
-public class Butaca {
-    private int numero;
-    private boolean ocupada;
-
-    // Constructor
-    public Butaca(int numero, boolean ocupada) {
-        this.numero = numero;
-        this.ocupada = ocupada;
-    }
-
-    // Getters y Setters
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
-    }
-
-    public boolean isOcupada() {
-        return ocupada;
-    }
-
-    public void setOcupada(boolean ocupada) {
-        this.ocupada = ocupada;
-    }
-
-    // Método toString
-    @Override
-    public String toString() {
-        return "Butaca{" +
-                "numero=" + numero +
-                ", ocupada=" + ocupada +
-                '}';
-    }
-}
-
 // Clase Sala
+
+import capybarafilms.Butaca;
+
 public class Sala {
     private Butaca[] butacas; // Array de butacas
     private int capacidad;
