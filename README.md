@@ -1,3 +1,6 @@
+
+![Carpinchos Programando](https://github.com/user-attachments/assets/2a23a57a-fb65-4b36-a7a4-c9d9b57f5fb6)
+
 # 🎞️ CapybaraFilms 📽️
 
 **CapybaraFilms** es un sistema de gestión de cine desarrollado en Java. Este proyecto permite a los usuarios reservar funciones para ver películas, seleccionar butacas, elegir entre formatos 2D o 3D, y mucho más. 🎥🍿
