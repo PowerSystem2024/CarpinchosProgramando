@@ -28,3 +28,6 @@ for clave, valor in seleccionArgentina.items():
 
 print("\nTenemos cargados en el diccionario la cantidad de:", end=" ")
 print(len(seleccionArgentina),"jugadores de la seleccion Argentina.")
+
+for i in seleccionArgentina:
+    print(f"\n{i} -> {seleccionArgentina[i]}")

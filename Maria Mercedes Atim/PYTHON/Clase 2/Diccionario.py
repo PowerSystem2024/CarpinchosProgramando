@@ -7,7 +7,7 @@ diccionario = {
     "SABD" : "Sistema de Administracion de Base de Datos"
 }
 
-'''print("Estos son los elementos del diccionario: ", diccionario)
+print("Estos son los elementos del diccionario: ", diccionario)
 
 print("\nVamos a ver la longitud del diccionario: ") # Len muestra la cantidad de elementos que existen.
 print(len(diccionario))
@@ -17,7 +17,7 @@ print(diccionario["IDE"]) # Nos debe mostrar el valor para la llave ingresada. C
 
 print("\nOtra forma de acceder a los elementos es con la funcion get(): ")
 print(diccionario.get("POO"))
-print(diccionario.get("SABD"))'''
+print(diccionario.get("SABD"))
 
 print("\nModificamos elementos en el diccionario: ")
 diccionario["IDE"] = "Entorno de Desarrollo Integrado" # Sobreescribimos el valor
