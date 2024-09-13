@@ -1,1 +1,1 @@
-# Portafolio Indivual
+# Portafolio Individual
