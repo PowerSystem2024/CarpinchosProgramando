@@ -1,0 +1,14 @@
+Esto es un ejemplo de una linea del tiempo sin javascript, solo contiene html y css,
+yo por cuestiones prácticas y sencillas para facilitar la realización del portafolio web en Vue, utilizare esta linea del tiempo
+y les mostrare el codigo comentado para que lo repasen y aprendan como esta creada, la idea es que ustedes entiendan como 
+funciona para que creen o modifiquen a su gusto este codigo o pueden buscar otras lineas de tiempo, para usar de referencia.
+Lo ideal es que sea tu propia linea del tiempo, mientras más personalizada y diferente a las demás hara que tu portafolio se destaque más
+y sea mas original.
+
+Ingresa al enlace y veras un ejemplo de linea del tiempo
+https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm
+
+En este enlace encontraras el codigo html y css correspondiente a la linea del tiempo de ejemplo:
+https://freefrontend.com/css-timelines/
+
+Gracias a Mark Boots, creador del codigo.

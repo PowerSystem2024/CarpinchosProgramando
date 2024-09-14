@@ -1,4 +1,3 @@
-
 package capybarafilms;
 
 public class Butaca {

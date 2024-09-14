@@ -1,5 +1,4 @@
-
-// Clase Sala
+package capybarafilms;
 
 import capybarafilms.Butaca;
 
