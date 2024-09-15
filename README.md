@@ -1,3 +1,5 @@
+![Carpinchos Programando](https://github.com/user-attachments/assets/9418a617-3eda-4544-a46a-5d65a1cb0419)
+
 # Carpinchos Programando ![carpincho](https://github.com/user-attachments/assets/e33e52ca-ea77-4590-a6d6-9f8248b5a1e5)
 
 ## Repositorio del Segundo Semestre 📚
@@ -10,34 +12,33 @@
 
 ## Cátedra 📖
 
-**Programación II**
+## Programación II
 
 ## Integrantes 👨‍💻👩‍💻
 
-- **Aguilar, Melina** ![carpincho (2)](https://github.com/user-attachments/assets/34c61984-7f45-403c-a3ae-a57dd16a27bf)
+- **[Aguilar, Melina](https://github.com/Melina-Aguilar)** ![carpincho (2)](https://github.com/user-attachments/assets/34c61984-7f45-403c-a3ae-a57dd16a27bf)
 
 
-- **Aguilera, Mariana** ![carpincho (2)](https://github.com/user-attachments/assets/7fd5b73e-59a3-4209-a4b3-36ee8fed9e37)
+
+- **[Aguilera, Mariana](https://github.com/Mariana3726)** ![carpincho (2)](https://github.com/user-attachments/assets/7fd5b73e-59a3-4209-a4b3-36ee8fed9e37)
 
 
-- **Atim, Mercedes** ![carpincho (2)](https://github.com/user-attachments/assets/a3630c0d-a0d6-4266-862e-1705e1a60829)
+- **[Atim, Maria Mercedes](https://github.com/MerAtim)** ![carpincho (2)](https://github.com/user-attachments/assets/a3630c0d-a0d6-4266-862e-1705e1a60829)
 
 
-- **Lanatta, Wanda Oriana** ![carpincho (2)](https://github.com/user-attachments/assets/cdcf3c88-d7ae-448b-8439-a6337e89a4ff)
+- **[Lanatta, Wanda Oriana](https://github.com/wandaoriana)** ![carpincho (2)](https://github.com/user-attachments/assets/cdcf3c88-d7ae-448b-8439-a6337e89a4ff)
 
 
-- **Mercado, Nicolás** ![carpincho (2)](https://github.com/user-attachments/assets/b6f1a4ab-6c38-4aea-a7d6-992f1afe9561)
+- **[Mercado, Nicolas](https://github.com/NicolasMercado1)** ![carpincho (2)](https://github.com/user-attachments/assets/b6f1a4ab-6c38-4aea-a7d6-992f1afe9561)
 
 
-- **Molina, Cirano** ![carpincho (2)](https://github.com/user-attachments/assets/4b76f05b-8157-4a11-a925-c445e5a404ba)
+- **[Molina, Cirano](https://github.com/CiranoMolina)** ![carpincho (2)](https://github.com/user-attachments/assets/4b76f05b-8157-4a11-a925-c445e5a404ba)
 
 
-- **Ríos, Nelson** ![carpincho (2)](https://github.com/user-attachments/assets/503b6530-624c-46ec-b5fa-a54b7718af18)
+- **[Rios, Nelson Omar](https://github.com/Nelrios)** ![carpincho (2)](https://github.com/user-attachments/assets/503b6530-624c-46ec-b5fa-a54b7718af18)
 
 
-- **Ríos Garín, Ana Paula** ![carpincho (2)](https://github.com/user-attachments/assets/0a8517f9-ad79-46b8-b948-419144200767)
-
-
+- **[Ríos Garin, Ana Paula](https://github.com/anaprg05)** ![carpincho (2)](https://github.com/user-attachments/assets/0a8517f9-ad79-46b8-b948-419144200767)
 
 ## ¿Quiénes Somos?
 
