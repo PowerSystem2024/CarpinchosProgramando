@@ -6,30 +6,22 @@
   padding: 2rem;
   font-weight: normal;
 }
-
-a,
-.green {
+a {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+  color: var(--vt-c-white);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+
+/* Agregaremos esta media query pensando en el responsivo desde ahora por esta regla */
+@media (max-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+@media (min-width: 1042px) {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
 }
+
