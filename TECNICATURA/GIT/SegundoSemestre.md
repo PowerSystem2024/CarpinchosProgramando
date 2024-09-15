@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/191083e9-5cc4-470b-8217-096a8d8d4618)
+
+
 # **Clase 1**
 
 **COMANDOS**
@@ -78,7 +81,6 @@ Seguir la secuencia: **Ingresamos a nuestra cuenta de GitHub.**
 
 ![capturaGit7](https://github.com/user-attachments/assets/4389be4c-fe74-4dea-9a7a-9e192f2f991e)
 
-
 # Clase 2
 
 **Vamos a cargar la llave SSH publica en GitHub**
@@ -156,7 +158,11 @@ Ahora cuando creamos un repositorio desde la nube, osea desde GitHub, ya verás 
 
 **La creación de las SSH es necesario solo una vez por cada computadora. Aquí conocerás cómo conectar a GitHub usando SSH.**
 
+![CapturaGit15](https://github.com/user-attachments/assets/e8bd1090-6a30-4580-b8d8-0016a303c8dd)
+
 **Luego de crear nuestras llaves SSH podemos entregarle la llave pública a GitHub para comunicarnos de forma segura y sin necesidad de escribir nuestro usuario y contraseña todo el tiempo.**
+
+![CapturaGit16](https://github.com/user-attachments/assets/95a5d623-84ea-4e96-b9e0-6d1177fae954)
 
 **Para esto debes entrar a la Configuración de Llaves SSH en GitHub, crear una nueva llave con el nombre que le quieras dar y el contenido de la llave pública de tu computadora.**
 
@@ -167,6 +173,8 @@ Ahora cuando creamos un repositorio desde la nube, osea desde GitHub, ya verás 
 **git remote set-url origin url-ssh-del-repositorio-en-github**
 
 **Comandos para copiar la llave SSH:**
+
+![CapturaGit17](https://github.com/user-attachments/assets/14ad7bc4-441d-415f-9721-77a0660ce345)
 
 **ESTAS SON LAS RUTAS DEL SSH PUBLICO**
 
@@ -179,6 +187,10 @@ pbcopy < ~/.ssh/id_rsa.pub
 Linux (Ubuntu):
 cat ~/.ssh/id_rsa.pub
 
+![CapturaGit18](https://github.com/user-attachments/assets/365d1ea2-e5cc-4b23-aa9f-9a56f753b852)
+
+![CapturaGit19](https://github.com/user-attachments/assets/e1ab81ee-0b33-4aff-99ce-a591297cf6c4)
+
 ## Importante
 
 **Las buenas costumbres nos enseñan que antes de hacer un push, siempre debemos hacer un pull, un fetch, esto para que si alguien ya hizo algún cambio, no se genere un conflicto.**
@@ -188,4 +200,67 @@ cat ~/.ssh/id_rsa.pub
 **Para invitar a un colaborador debemos ir a GitHub y seleccionar:**
 **setting -> colaborators -> ingresar contraseña o un F2A de verificación y enviar la invitación escribiendo el nombre de usuario.**
 
+![CapturaGit20](https://github.com/user-attachments/assets/f3c8f7fc-9a6a-4f64-aa0f-4e9d2fa816d3)
+
+![CapturaGit21](https://github.com/user-attachments/assets/5f0c927b-6d61-446b-a991-8496057d9d8e)
+
 **Del otro lado el usuario invitado solo debe aceptar y listo, ya puede participar del proyecto haciendo commit.**
+
+# **Clase 5**
+
+Git tag y versiones en GitHub
+
+En Git, las etiquetas o Git tags tienen un papel importante al asignar versiones a los commits más significativos de un proyecto. Aprender a utilizar el comando git tag, entender los diferentes tipos de etiquetas, cómo crearlas, eliminarlas y compartirlas, es esencial para un flujo de trabajo eficiente.
+
+Creación de etiquetas en Git
+
+```sh
+git tag
+
+```
+
+Sustituye con un identificador semántico que refleje el estado del repositorio en el momento de la creación. Git admite etiquetas anotadas y ligeras.
+
+Listado de etiquetas
+Para obtener una lista de etiquetas en el repositorio, ejecuta el siguiente comando:
+
+Para crear una etiqueta, ejecuta el siguiente comando:
+
+Las etiquetas anotadas almacenan información adicional como la fecha, etiquetador y correo electrónico, y son ideales para publicaciones públicas. Las etiquetas ligeras son más simples y se emplean como “marcadores” de una confirmación específica.
+
+git tag
+
+Esto mostrará una lista de las etiquetas existentes, como:
+
+v1.0
+
+v1.1
+
+v1.2
+
+![CapturaGit22](https://github.com/user-attachments/assets/498d6190-0d7d-4d7e-b1ac-f92e92dd8be9)
+
+Para perfeccionar la lista, puedes utilizar opciones adicionales, como -l con una expresión comodín.
+
+Uso compartido de etiquetas
+
+Compartir etiquetas requiere un enfoque explícito al usar el comando git push. Por defecto, las etiquetas no se envían automáticamente. Para enviar etiquetas específicas, utiliza:
+
+git push origin
+
+Para enviar varias etiquetas a la vez, usa:
+
+git push origin --tags
+
+![CapturaGit23](https://github.com/user-attachments/assets/9139f697-2420-4ef4-8ed4-3bf12b689ae2)
+
+Eliminación de etiquetas
+Para eliminar una etiqueta, usa el siguiente comando:
+
+git tag -d
+
+Esto eliminará la etiqueta identificada por en el repositorio local.
+
+![CapturaGit24](https://github.com/user-attachments/assets/169b4110-4a1d-4078-b3a9-9e1481a73079)
+
+En resumen, las etiquetas en Git son esenciales para asignar versiones y capturar instantáneas importantes en el historial de un proyecto. Aprender a crear, listar, compartir y eliminar etiquetas mejorará tu flujo de trabajo con Git.
