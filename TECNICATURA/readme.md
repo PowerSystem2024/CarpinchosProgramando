@@ -6,3 +6,4 @@
 ## • JavaScript
 ## • Portafolio Web
 ## • Python
+## • Scrum Master
