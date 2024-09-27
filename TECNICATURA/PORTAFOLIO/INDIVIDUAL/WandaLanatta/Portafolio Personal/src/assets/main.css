@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: var(--vt-c-white);
+}
+
+
+/* Agregaremos esta media query pensando en el responsivo desde ahora por esta regla */
+@media (max-width: 768px) {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+@media (min-width: 1042px) {
+  display: flex;
+  flex-direction: column;
+  width: 88%;
+}
+
