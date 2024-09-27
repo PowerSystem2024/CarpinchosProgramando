@@ -49,7 +49,5 @@ public class Butaca {
     public String toString() {
         return "Butaca{" + "numero=" + numero + ", fila=" + fila + ", categoria=" + categoria + ", estado=" + estado + '}';
     }
-    
-    
-    
+       
 }

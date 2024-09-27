@@ -5,14 +5,18 @@ import capybarafilms.Butaca;
 public class Sala {
     private Butaca[] butacas; // Array de butacas
     private int capacidad;
+    private String categoria;
 
     // Constructor
-    public Sala(Butaca[] butacas, int capacidad) {
+
+    public Sala(Butaca[] butacas, int capacidad, String categoria) {
         this.butacas = butacas;
         this.capacidad = capacidad;
+        this.categoria = categoria;
     }
-
+   
     // Getters y Setters
+
     public Butaca[] getButacas() {
         return butacas;
     }
@@ -29,17 +33,17 @@ public class Sala {
         this.capacidad = capacidad;
     }
 
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
     // Método toString
     @Override
     public String toString() {
-        StringBuilder butacasInfo = new StringBuilder();
-        for (Butaca butaca : butacas) {
-            butacasInfo.append(butaca.toString()).append("\n");
-        }
-
-        return "Sala{" +
-                "capacidad=" + capacidad +
-                ", butacas=\n" + butacasInfo.toString() +
-                '}';
+        return "Sala{" + "butacas=" + butacas + ", capacidad=" + capacidad + ", categoria=" + categoria + '}';
     }
 }

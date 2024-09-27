@@ -20,8 +20,5 @@ public class CapybaraFilms {
         System.out.println(cliente2.toString());
         System.out.println(cliente2.getApellido());
 
-
-
-
     }
 }
