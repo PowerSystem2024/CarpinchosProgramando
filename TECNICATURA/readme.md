@@ -10,3 +10,4 @@
 # Scrum Master
 ### Semana del 16/09 al 20/09 -> Mercedes Atim
 ### Semana del 23/09 al 27/09 -> Ana Paula Ríos Garín
+### Semana del 30/09 al 06/10 -> Melina Aguilar
