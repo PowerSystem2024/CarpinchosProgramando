@@ -14,12 +14,7 @@ public class Cliente {
         this.apellido = apellido;
         this.dni = dni;
         this.eMail = eMail;
-
-
-
-
     }
-
 
     public String getNombre() {
         return nombre;
@@ -51,8 +46,6 @@ public class Cliente {
 
     public void seteMail(String eMail) {
         this.eMail = eMail;
-
-
     }
 
     @Override
@@ -63,8 +56,5 @@ public class Cliente {
                 "  DNI: " + dni + "\n" +
                 "  eMail: " + eMail;
     }
-
-
-
 
 }

@@ -1,6 +1,6 @@
 package capybarafilms;
 
-public class CapybaraFilms {
+public class Funcion {
 
     public static void main(String[] args) {
         Pelicula peli1, peli2;
@@ -19,9 +19,6 @@ public class CapybaraFilms {
         System.out.println(cliente1.getNombre());
         System.out.println(cliente2.toString());
         System.out.println(cliente2.getApellido());
-
-
-
 
     }
 }
