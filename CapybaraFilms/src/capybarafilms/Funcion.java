@@ -1,6 +1,6 @@
 package capybarafilms;
 
-public class CapybaraFilms {
+public class Funcion {
 
     public static void main(String[] args) {
         Pelicula peli1, peli2;
