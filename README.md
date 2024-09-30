@@ -32,9 +32,6 @@
 - **[Mercado, Nicolas](https://github.com/NicolasMercado1)** ![carpincho (2)](https://github.com/user-attachments/assets/b6f1a4ab-6c38-4aea-a7d6-992f1afe9561)
 
 
-- **[Molina, Cirano](https://github.com/CiranoMolina)** ![carpincho (2)](https://github.com/user-attachments/assets/4b76f05b-8157-4a11-a925-c445e5a404ba)
-
-
 - **[Rios, Nelson Omar](https://github.com/Nelrios)** ![carpincho (2)](https://github.com/user-attachments/assets/503b6530-624c-46ec-b5fa-a54b7718af18)
 
 
