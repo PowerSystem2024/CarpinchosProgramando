@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>160</x><y>30</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+-nombre: str
+-apellido: str
+-edad: int
+--
+
+/mostrar_detalle()/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>150</y><w>30</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>250</y><w>40</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>11;12;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>250</y><w>40</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>11;12;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>300</y><w>210</w><h>80</h></coordinates><panel_attributes>persona1: Persona
+--
+-nombre: 'Ariel'
+-apellido: 'Betancud'
+-edad: 40
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>300</y><w>210</w><h>80</h></coordinates><panel_attributes>persona2: Persona
+--
+-nombre: 'Osvaldo'
+-apellido: 'Giordanini'
+-edad: 45
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>240</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>250</x><y>240</y><w>180</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element></diagram>
