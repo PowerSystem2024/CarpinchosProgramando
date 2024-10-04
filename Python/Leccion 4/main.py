@@ -612,17 +612,17 @@ def mi_funcion():
 
 mi_funcion()
 
-# hacer un programa que puda un numero por teclado y guarde en la lista su tabal de multiplicar hasta el 10
+# hacer un programa que puda un numero por teclado y guarde en la lista su tabla de multiplicar hasta el 10
 
-def tablaMultiplicar(numero):
-    listaMultiplicar = []
-    for i in range(0, 11):
-        listaMultiplicar.append(numero * i)
-    return listaMultiplicar
+tablaDeMultiplicar = []
 
-numero = int(input("ingrese un numero "))
+numero = int(input("Ingrese un numero para crear su tabla de multiplicar: "))
 
-print(f"la tabla de multiplicar del numero {numero} es {tablaMultiplicar(numero)}")
+for i in range(0, 11):
+    tablaDeMultiplicar.append(numero * i)
+    print(f"{numero} x {i} = {tablaDeMultiplicar[-i]}")
+
+print(f"\nLa lista completa quedaría así: {tablaDeMultiplicar}")
 
 
 
