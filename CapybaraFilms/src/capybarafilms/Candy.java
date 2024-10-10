@@ -1,32 +1,24 @@
-package capybarafilms;
+package capybarafilms.domain.entities;
+
+import capybarafilms.domain.entities.types.TipoCandy; // Importamos el tipo de candy que incluye el tipo y el precio.
 
 public class Candy {
-     private String tipo;  // Sería chico, mediano o grande.
-    private double precio;
 
-    public Candy(String tipo, double precio) {
-        this.tipo = tipo;
-        this.precio = precio;
+    private TipoCandy tipo; // El tipo de combo: chico, mediano o grande.
+
+    // Constructor que recibe el tipo de combo.
+    public Candy(TipoCandy tipo) {
+        this.tipo = tipo; // Se asigna el tipo de combo.
     }
 
-    public String getTipo() {
-        return tipo;
+    // Devuelve el tipo de combo que se ha seleccionado.
+    public TipoCandy getTipo() {
+        return tipo; // Se devuelve el tipo de candy.
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
-
+    // Método para mostrar el nombre del combo cuando se imprime.
     @Override
     public String toString() {
-        return "Candy: Tamaño: " + tipo + ", precio: " + precio;
-    }
+        return "Candy: " + tipo.getNombre(); // Devuelve el nombre del tipo de candy.
+    }    
 }
