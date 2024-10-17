@@ -38,4 +38,5 @@ public class Butaca {
     public void setUbicacion(Ubicacion ubicacion) {
         this.ubicacion = ubicacion; // Se actualiza la ubicación de la butaca.
     }
+    
 }
