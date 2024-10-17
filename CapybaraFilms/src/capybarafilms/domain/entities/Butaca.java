@@ -1,3 +1,4 @@
+package capybarafilms.domain.entities;
 import capybarafilms.domain.entities.types.TipoButaca; // Importamos el tipo de butaca
 import capybarafilms.domain.entities.types.Ubicacion; // Importamos la clase que indica la ubicación de la butaca
 
@@ -37,5 +38,5 @@ public class Butaca {
     // Cambia la ubicación de la butaca.
     public void setUbicacion(Ubicacion ubicacion) {
         this.ubicacion = ubicacion; // Se actualiza la ubicación de la butaca.
-    }
+}
 }

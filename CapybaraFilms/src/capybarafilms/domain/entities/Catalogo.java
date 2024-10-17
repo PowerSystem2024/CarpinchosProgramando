@@ -1,8 +1,9 @@
 package capybarafilms.domain.entities;
 
-import capybarafilms.domain.entities.types.FormatoPelicula; // Importamos el tipo de formato de película.
 import java.util.ArrayList; // Importamos la clase para crear listas.
 import java.util.List; // Importamos la interfaz para usar listas.
+
+import capybarafilms.domain.entities.types.FormatoPelicula; // Importamos el tipo de formato de película.
 
 public class Catalogo {
 
