@@ -1,6 +1,6 @@
 package capybarafilms.domain.entities;
 
-import types.FormatoPelicula;
+import capybarafilms.domain.entities.types.FormatoPelicula;
 
 public class Pelicula {
 

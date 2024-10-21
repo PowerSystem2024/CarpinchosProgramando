@@ -36,8 +36,8 @@ public class Sala {
 
     // Método para asignar una butaca a una ubicación específica
     public void asignarButaca(Ubicacion ubicacion) {
-        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length &&
-            ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
+        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length
+                && ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
             if (!butacas[ubicacion.getFila()][ubicacion.getButaca()].isEstado()) {
                 // Marca la butaca como ocupada
                 butacas[ubicacion.getFila()][ubicacion.getButaca()].setEstado(true);
@@ -52,8 +52,8 @@ public class Sala {
     // Método que calcula el precio de la entrada según la ubicación
     public double precioDeEntrada(Ubicacion ubicacion) {
         // Verifica que se esté accediendo a una posición válida en la matriz de butacas
-        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length && 
-            ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
+        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length
+                && ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
             // Devuelve el precio de la butaca más el precio extra del formato de la película
             return butacas[ubicacion.getFila()][ubicacion.getButaca()].getCategoria().getPrecio() + pelicula.getFormato().getPrecioExtra();
         } else {
@@ -99,5 +99,5 @@ public class Sala {
         }
 
         return resultado; // Devuelve el mensaje final
-    }
+    }
 }
