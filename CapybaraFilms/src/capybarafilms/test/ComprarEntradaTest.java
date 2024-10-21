@@ -1,5 +1,9 @@
 package capybarafilms.test;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 import capybarafilms.domain.entities.Butaca;
 import capybarafilms.domain.entities.Candy;
 import capybarafilms.domain.entities.Catalogo;
@@ -9,10 +13,6 @@ import capybarafilms.domain.entities.Reserva;
 import capybarafilms.domain.entities.Sala;
 import capybarafilms.domain.entities.types.TipoCandy;
 import capybarafilms.domain.entities.types.Ubicacion;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
 public class ComprarEntradaTest {
 
@@ -200,9 +200,21 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
             do {
                 System.out.println("Ingrese la fila (0 a 11) para la entrada " + (i + 1) + ": ");
                 fila = entrada.nextInt(); // Lee la fila seleccionada
+               while (fila >= 12 || fila <= -1) {
+               
+               System.out.println("Numero de fila no valido");
+                System.out.println("Ingrese la fila (0 a 11) para la entrada " + (i + 1) + ": ");
+                fila = entrada.nextInt(); // Lee la fila seleccionada
+               }
+
                 System.out.println("Ingrese el número de butaca (0 a 11) para la entrada " + (i + 1) + ": ");
                 butaca = entrada.nextInt(); // Lee el número de butaca seleccionada
-
+                while (butaca >= 12 || butaca <= -1) {
+               
+                    System.out.println("Numero de butaca no valido");
+                     System.out.println("Ingrese la butaca (0 a 11) para la entrada " + (i + 1) + ": ");
+                     butaca = entrada.nextInt(); // Lee la fila seleccionada
+                    }
                 // Verifica que los números de fila y butaca estén dentro del rango permitido
                 if (fila < 0 || fila >= sala.getCapacidad() || butaca < 0 || butaca >= sala.getCapacidad()) {
                     System.out.println("Fila o butaca fuera de rango. Intente de nuevo."); // Mensaje de error

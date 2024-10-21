@@ -36,6 +36,7 @@ public class Sala {
 
     // Método para asignar una butaca a una ubicación específica
     public void asignarButaca(Ubicacion ubicacion) {
+
         if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length
                 && ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
             if (!butacas[ubicacion.getFila()][ubicacion.getButaca()].isEstado()) {
@@ -46,16 +47,40 @@ public class Sala {
             }
         } else {
             System.out.println("Fila y butaca inválidos."); // Mensaje de error si son inválidos
+
+        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length) {
+            System.out.println("Numero de fila no valido");
+
+
         }
+        if (ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
+            System.out.println("Numero de Butaca no valido");
+        }
+        if (!butacas[ubicacion.getFila()][ubicacion.getButaca()].isEstado()) {
+            // Marca la butaca como ocupada
+            butacas[ubicacion.getFila()][ubicacion.getButaca()].setEstado(true);
+        } else {
+            System.out.println("La butaca se encuentra ocupada."); // Informa si ya está ocupada
+        }
+
     }
 
     // Método que calcula el precio de la entrada según la ubicación
     public double precioDeEntrada(Ubicacion ubicacion) {
         // Verifica que se esté accediendo a una posición válida en la matriz de butacas
+
         if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length
                 && ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
             // Devuelve el precio de la butaca más el precio extra del formato de la película
             return butacas[ubicacion.getFila()][ubicacion.getButaca()].getCategoria().getPrecio() + pelicula.getFormato().getPrecioExtra();
+
+        if (ubicacion.getFila() >= 0 && ubicacion.getFila() < butacas.length &&
+                ubicacion.getButaca() >= 0 && ubicacion.getButaca() < butacas[ubicacion.getFila()].length) {
+            // Devuelve el precio de la butaca más el precio extra del formato de la
+            // película
+            return butacas[ubicacion.getFila()][ubicacion.getButaca()].getCategoria().getPrecio()
+                    + pelicula.getFormato().getPrecioExtra();
+
         } else {
             System.out.println("Fila y butaca inválidos."); // Mensaje de error si la posición es inválida
             return 0; // Devuelve 0 si hay un error
@@ -98,6 +123,10 @@ public class Sala {
             resultado += "\n"; // Salto de línea al final de cada fila
         }
 
+
         return resultado; // Devuelve el mensaje final
+
+        return resultado; // Devuelve el mensaje final
+
     }
 }

@@ -1,7 +1,8 @@
 package capybarafilms.domain.entities;
 
-import capybarafilms.domain.entities.types.Ubicacion;
 import java.util.List;
+
+import capybarafilms.domain.entities.types.Ubicacion;
 
 public class Reserva {
 
