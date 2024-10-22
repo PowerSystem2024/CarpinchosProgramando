@@ -25,7 +25,7 @@ const students = ref([
   { name: "Aguilera, Mariana Florencia", portfolio: "/portafolio2" },
   { name: "Atim, Maria Mercedes", portfolio: "/portafolio3" },
   { name: "Lanatta, Wanda Oriana", portfolio: "/portafolio4" },
-  { name: "Mercado, Nicolas", portfolio: "/portafolio5" },
+  { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5" },
   { name: "Rios, Nelson Omar", portfolio: "/portafolio6" },
   { name: "Rios Garin, Ana Paula", portfolio: "/portafolio7" },
 ]);
@@ -50,7 +50,7 @@ function getNodeColor(index) {
     'magenta',
     'GreenYellow',
     'deeppink',
-    'yellow',
+    'Green',
     'aqua',
     'Chartreuse',
   ];
