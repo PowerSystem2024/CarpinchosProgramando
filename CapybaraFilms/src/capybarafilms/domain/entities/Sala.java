@@ -80,11 +80,12 @@ public class Sala {
     // Método que devuelve una representación en texto de la sala
     @Override
     public String toString() {
-        String resultado = "Sala N° 1 "; // Inicia la cadena con un mensaje sobre la sala
-        resultado += "Película: " + pelicula.getNombre() + "\n"; // Agrega el título de la película
-
-        // Recorre las filas de la sala
-        for (int fila = 0; fila < capacidad; fila++) {
+        String resultado = "Sala N° 1\n"; // Inicia la cadena con un mensaje sobre la sala
+        resultado += "Película: " + pelicula.getNombre() + "\nFormato de la película: " + pelicula.getFormato() 
+                + "\nGénero de la pelicula: " + pelicula.getGenero() + "\n" + "Duración: " + pelicula.getDuracion() + " min." 
+                + "\nDirigida por: " + pelicula.getDirector() + "\n\nButacas Seleccionadas: \n"; // Agrega el título, formato, genero, duracion y director de la película
+             // Recorre las filas de la sala
+            for (int fila = 0; fila < capacidad; fila++) {
             // Recorre las butacas en cada fila
             for (int butaca = 0; butaca < capacidad; butaca++) {
                 Butaca b = butacas[fila][butaca]; // Obtiene la butaca actual
