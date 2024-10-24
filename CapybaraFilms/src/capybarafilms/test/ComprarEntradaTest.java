@@ -186,7 +186,6 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
                 System.out.println("Entrada inválida. Por favor, ingrese un número."); // Mensaje de error
             }
         }
-
         return cantidad; // Devuelve la cantidad válida de entradas
     }
 
@@ -245,10 +244,9 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
         // Repite hasta que el usuario ingrese una opción válida
         while (!entradaValida) {
             System.out.println("""
-Desea agregar algún combo?
-1) Si
-2) No
-""");
+        Desea agregar algún combo?
+        1) Si
+        2) No""");
 
             String input = entrada.nextLine(); // Lee la entrada como cadena
 
@@ -274,11 +272,10 @@ Desea agregar algún combo?
         int opcion; // Variable para almacenar la opción seleccionada
         do {
             System.out.println("""
-¿Qué tamaño de combo desea?
-1) CHICO
-2) MEDIANO
-3) GRANDE
-""");
+        ¿Qué tamaño de combo desea?
+        1) CHICO
+        2) MEDIANO
+        3) GRANDE""");
             opcion = entrada.nextInt(); // Lee la opción seleccionada
             switch (opcion) {
                 case 1 -> tipoCandy = TipoCandy.CHICO; // Selecciona combo chico
