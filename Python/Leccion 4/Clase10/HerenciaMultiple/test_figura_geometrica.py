@@ -2,7 +2,7 @@ from Cuadrado import Cuadrado
 from Rectangulo import Rectangulo
 
 cuadrado1 = Cuadrado(5,"Azul")
-rectangulo1 = Rectangulo(2,6,"Rojo")
+rectangulo1 = Rectangulo(2,6,"Verde")
 print(cuadrado1.ancho)
 print(cuadrado1.alto)
 print(f"El area es: {cuadrado1.calcular_area()}")

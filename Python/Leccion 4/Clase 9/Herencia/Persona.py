@@ -34,14 +34,12 @@ class Empleado(Persona): # EXTIENDE DE PERSONA
         return f"Empleado: [ Sueldo: {self._sueldo} ] {super().__str__()}"
     
 
-empleado1 = Empleado("Ale",24,750000)
+empleado1 = Empleado("Wanda",24,750000)
 print(empleado1.nombre)
 print(empleado1.edad)
 print(empleado1.sueldo)
 
-#TAREA: encapsular atributos y agregar metodos getters and setters
-# Crear otro objeto, pasar los datos para nombre, edad y sueldo
-# Mostrar los datos, modificarlos y mostrarlos nuevamente
+#TAREA: 
 print("- - - - -  TAREA - - - - - ")
 empleadoTarea = Empleado("EmpleadoTarea",100,9999)
 print(empleadoTarea.nombre)

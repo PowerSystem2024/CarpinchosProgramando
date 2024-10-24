@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clase07/ContextoEstatico/ContextoEstatico.iml" filepath="$PROJECT_DIR$/Clase07/ContextoEstatico/ContextoEstatico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjercicioCiclos11/EjercicioCiclos11.iml" filepath="$PROJECT_DIR$/EjercicioCiclos11/EjercicioCiclos11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosCiclos12/EjerciciosCiclos12.iml" filepath="$PROJECT_DIR$/EjerciciosCiclos12/EjerciciosCiclos12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase07/Encapsulamiento/Encapsulamiento.iml" filepath="$PROJECT_DIR$/Clase07/Encapsulamiento/Encapsulamiento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Leccion5.iml" filepath="$PROJECT_DIR$/.idea/Leccion5.iml" />
+    </modules>
+  </component>
+</project>

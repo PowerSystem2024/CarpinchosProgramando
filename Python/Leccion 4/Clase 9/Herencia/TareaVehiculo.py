@@ -23,9 +23,9 @@ class Bicicleta(Vehiculo):
     def __str__(self):
         return  f"Bicicleta: [tipo: {self.tipo}] {super().__str__()}" 
     
-vehiculo1 = Vehiculo("Negro",8)
-auto1 = Auto("Blanco",4,299)
-bici1 = Bicicleta("Rojo",2,"Urbana")
+vehiculo1 = Vehiculo("Rojo",8)
+auto1 = Auto("Azul",4,299)
+bici1 = Bicicleta("Rosa",2,"Urbana")
 
 print("- - - - - VEHICULO: - - - - - ")
 print(vehiculo1.color)
