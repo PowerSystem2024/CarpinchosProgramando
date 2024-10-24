@@ -22,11 +22,11 @@ public class ComprarEntradaTest {
     public static void main(String[] args) {
         // Inicializa el mensaje de bienvenida
         menuMensaje = """
-****************************
-* Bienvenido a Capybara Films *
-****************************
-Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
-""";
+        *************************************
+        * Bienvenido a Capybara Films *
+        *************************************
+        Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
+        """;
 
         mostrarMensaje(); // Muestra el mensaje de bienvenida
         Cliente cliente = obtenerDatosCliente(); // Llama al método para obtener los datos del cliente
@@ -53,10 +53,9 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
 
         // Agradece al usuario por su compra
         System.out.println("¡Gracias por su compra, " + cliente.getNombre() + "!");
-    }
+    }// fin del método main
 
-    // Método que obtiene y valida los datos del cliente
-    private static Cliente obtenerDatosCliente() {
+        private static Cliente obtenerDatosCliente() { // Método que obtiene y valida los datos del cliente
         System.out.println("Ingrese su nombre: ");
         String nombre = entrada.nextLine(); // Lee el nombre del cliente
 
@@ -186,17 +185,16 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
                 System.out.println("Entrada inválida. Por favor, ingrese un número."); // Mensaje de error
             }
         }
-
         return cantidad; // Devuelve la cantidad válida de entradas
     }
 
     // Método que permite seleccionar las butacas para las entradas compradas
     private static List<Butaca> seleccionarButacas(int cantidadEntradas, Sala sala) {
         List<Butaca> butacasSeleccionadas = new ArrayList<>(); // Lista para almacenar las butacas seleccionadas
-
         // Itera por la cantidad de entradas solicitadas
         for (int i = 0; i < cantidadEntradas; i++) {
             int fila, butaca; // Inicializa las variables de fila y butaca
+            System.out.println("Por favor seleccione las butacas que desea ocupar: ");
             do {
                 System.out.println("Ingrese la fila (0 a 11) para la entrada " + (i + 1) + ": ");
                 fila = entrada.nextInt(); // Lee la fila seleccionada
@@ -245,10 +243,9 @@ Por favor ingrese sus datos para continuar con la compra de la/s entrada/s.
         // Repite hasta que el usuario ingrese una opción válida
         while (!entradaValida) {
             System.out.println("""
-Desea agregar algún combo?
-1) Si
-2) No
-""");
+        Desea agregar algún combo?
+        1) Si
+        2) No""");
 
             String input = entrada.nextLine(); // Lee la entrada como cadena
 
@@ -274,11 +271,10 @@ Desea agregar algún combo?
         int opcion; // Variable para almacenar la opción seleccionada
         do {
             System.out.println("""
-¿Qué tamaño de combo desea?
-1) CHICO
-2) MEDIANO
-3) GRANDE
-""");
+        ¿Qué tamaño de combo desea?
+        1) CHICO
+        2) MEDIANO
+        3) GRANDE""");
             opcion = entrada.nextInt(); // Lee la opción seleccionada
             switch (opcion) {
                 case 1 -> tipoCandy = TipoCandy.CHICO; // Selecciona combo chico
