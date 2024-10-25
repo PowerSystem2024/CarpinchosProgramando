@@ -42,10 +42,10 @@
       <Proyectos />
     </section>
     <section id="habilidades"><h2>HABILIDADES</h2>
-    <Habilidades />
+      <Habilidades />
     </section>
     <section id="intereses"><h2>INTERESES</h2>
-    <Intereses />
+      <Intereses />
     </section>
   </main>
 

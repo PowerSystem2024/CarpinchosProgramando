@@ -5,7 +5,7 @@
 <template>
     <div class="galeria">
         <div class="proyecto">
-            <img src="/src/assets/proyecto1.jpg" alt="Proyecto 1">
+            <img src="/src/assets/Proyectos/proyecto1.jpg" alt="Proyecto 1">
             <div class="proyectoInfo">
                 <h3>Yo Dibujo</h3>
                 <p>Creé una página web en un curso de programación web (Yo Puedo Programar - Junior Achievement) con los lenguajes HTML, CSS y JavaScript.</p>
@@ -17,25 +17,25 @@
         </div>
         
         <div class="proyecto">
-            <img src="/src/assets/proyecto1.jpg" alt="Proyecto 1">
+            <img src="/src/assets/Proyectos/proyecto2.jpg" alt="Proyecto 2">
             <div class="proyectoInfo">
-                <h3>Yo Dibujo</h3>
-                <p>Creé una página web en un curso de programación web (Yo Puedo Programar - Junior Achievement) con los lenguajes HTML, CSS y JavaScript.</p>
+                <h3>PCB en Electrónica</h3>
+                <p>Creé una página web para una equivalencia del Instituto Leonardo Murialdo con los lenguajes HTML, CSS y JavaScript.</p>
                 <div class="proyectoLinks">
                     <a href="" class="btnVerMas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
-                    <a href="https://github.com/anaprg05/YoDibujo.git" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
+                    <a href="" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
                 </div>
             </div>
         </div>
 
         <div class="proyecto">
-            <img src="/src/assets/proyecto1.jpg" alt="Proyecto 1">
+            <img src="/src/assets/Proyectos/proyecto3.jpg" alt="Proyecto 3">
             <div class="proyectoInfo">
-                <h3>Yo Dibujo</h3>
-                <p>Creé una página web en un curso de programación web (Yo Puedo Programar - Junior Achievement) con los lenguajes HTML, CSS y JavaScript.</p>
+                <h3>Beneficios de la Robótica y la Electrónica</h3>
+                <p>Creé una página web para una equivalencia del Instituto Leonardo Murialdo con los lenguajes HTML, CSS y JavaScript.</p>
                 <div class="proyectoLinks">
                     <a href="" class="btnVerMas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
-                    <a href="https://github.com/anaprg05/YoDibujo.git" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
+                    <a href="" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
                 </div>
             </div>
         </div>
