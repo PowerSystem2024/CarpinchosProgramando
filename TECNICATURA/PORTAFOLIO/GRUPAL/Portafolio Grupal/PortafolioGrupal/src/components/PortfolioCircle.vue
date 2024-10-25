@@ -1,6 +1,15 @@
 <template>
   <div>
     <h1 class="title">Portafolios Carpinchos Programando</h1>
+    <div class="introduction">
+      <p class="group-description">
+        Somos alumnos de la Tecnicatura Universitaria en Programación de la UTN
+        (Universidad Tecnológica Nacional FRSR). Actualmente estamos cursando el
+        segundo semestre y pertenecemos a la cohorte 2024. Durante este trayecto
+        formativo, estamos aprendiendo en la Cátedra Programación II, lenguajes de programación como Java, JavaScript, Python y herramientas como Vue.js y Git.
+      </p>
+    </div>
+
     <div class="circle">
       <div
         v-for="(student, index) in students"
@@ -8,7 +17,7 @@
         :style="getNodeStyle(index)"
         class="node"
       >
-        <div :style="getNodeColor(index)" class="node-circle"></div>
+        <img :src="student.image" :class="['student-image', student.size]" />
         <a :href="student.portfolio"
           class="node-link"
           :style="getLinkStyle(index, index)">{{ student.name }}</a>
@@ -20,19 +29,28 @@
 <script setup>
 import { ref } from 'vue';
 
+// Importar imágenes
+import MelinaImage from '@/assets/Melina.png';
+import MarianaImage from '@/assets/Mariana.png';
+import MercedesImage from '@/assets/Mercedes.png';
+import WandaImage from '@/assets/Wanda.png';
+import NicolasImage from '@/assets/Nicolas.png';
+import NelsonImage from '@/assets/Nelson.png';
+import AnaImage from '@/assets/Ana.png'; // Cambiado a Ana.png
+
 const students = ref([
-  { name: "Aguilar, Melina Elizabeth", portfolio: "/portafolio1" },
-  { name: "Aguilera, Mariana Florencia", portfolio: "/portafolio2" },
-  { name: "Atim, Maria Mercedes", portfolio: "/portafolio3" },
-  { name: "Lanatta, Wanda Oriana", portfolio: "/portafolio4" },
-  { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5" },
-  { name: "Rios, Nelson Omar", portfolio: "/portafolio6" },
-  { name: "Rios Garin, Ana Paula", portfolio: "/portafolio7" },
+  { name: "Aguilar, Melina Elizabeth", portfolio: "/portafolio1", image: MelinaImage, size: 'peque-image' },
+  { name: "Aguilera, Mariana Florencia", portfolio: "/portafolio2", image: MarianaImage, size: 'small-image' },
+  { name: "Atim, Maria Mercedes", portfolio: "https://mariamercedesatim.netlify.app/", image: MercedesImage, size: 'medium-image' },
+  { name: "Lanatta, Wanda Oriana", portfolio: "/portafolio4", image: WandaImage, size: 'medium-image' },
+  { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5", image: NicolasImage, size: 'larger-image' }, // Más grande
+  { name: "Rios, Nelson Omar", portfolio: "/portafolio6", image: NelsonImage, size: 'large-image' }, // Más grande
+  { name: "Rios Garin, Ana Paula", portfolio: "/portafolio7", image: AnaImage, size: 'medium-image' },
 ]);
 
 function getNodeStyle(index) {
   const angle = (index / students.value.length) * 2 * Math.PI;
-  const radius = 150; // Radio ajustado para que los nodos estén por fuera
+  const radius = 150;
   const x = Math.cos(angle) * radius;
   const y = Math.sin(angle) * radius;
 
@@ -41,10 +59,16 @@ function getNodeStyle(index) {
     top: '50%',
     left: '50%',
     transform: `translate(${x}px, ${y}px) translate(-50%, -50%)`,
+    textAlign: 'center',
   };
 }
 
-function getNodeColor(index) {
+function getLinkStyle(index) {
+  const angle = (index / students.value.length) * 2 * Math.PI;
+  const radius = 110;
+  const x = Math.cos(angle) * radius;
+  const y = Math.sin(angle) * radius;
+
   const colors = [
     'OrangeRed',
     'magenta',
@@ -54,45 +78,24 @@ function getNodeColor(index) {
     'aqua',
     'Chartreuse',
   ];
-  return {
-    backgroundColor: colors[index % colors.length],
-    borderRadius: '50%',
-    width: '30px',
-    height: '30px',
-    position: 'absolute',
-    top: '-10px', // Mantener el nodo justo sobre el borde
-    left: '50%',
-    transform: 'translateX(-50%)',
-  };
-}
-
-// Función para posicionar los enlaces más cerca de los nodos
-// Función para posicionar los enlaces más cerca de los nodos
-function getLinkStyle(index) {
-  const angle = (index / students.value.length) * 2 * Math.PI;
-  const radius = 110; // Radio ajustado para que queden más cerca
-  const x = Math.cos(angle) * radius;
-  const y = Math.sin(angle) * radius;
-
-  const nodeColor = getNodeColor(index).backgroundColor; // Obtener el color del nodo
+  const nodeColor = colors[index % colors.length];
 
   return {
     position: 'absolute',
     top: '50%',
     left: '50%',
     transform: `translate(${x}px, ${y}px) translate(-50%, -50%)`,
-    backgroundColor: nodeColor, // Asignar el color del nodo al fondo del nombre
-    color: 'black', // Color del texto
+    backgroundColor: nodeColor,
+    color: 'black',
     padding: '5px',
-    width: '120px', // Establecer un ancho fijo
-    height: '90px', // Establecer una altura fija
-    lineHeight: '25px', // Quitar interlineado igualando a la altura
-    textAlign: 'center', // Centrar el texto horizontalmente
+    width: '120px',
+    height: '90px',
+    lineHeight: '25px',
+    textAlign: 'center',
     borderRadius: '5px',
-    textShadow: '1px 1px 2px lightgrey', // Sombra del texto
+    textShadow: '1px 1px 2px lightgrey',
   };
 }
-
 </script>
 
 <style scoped>
@@ -103,17 +106,32 @@ function getLinkStyle(index) {
   text-align: center;
   font-weight: bold;
   font-size: 35px;
-  margin-bottom: 180px; /* Aumentar el margen inferior para evitar superposición */
+  margin-bottom: 20px;
   z-index: 1;
   position: relative;
+}
+
+.introduction {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.group-description {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  padding: 0 20px;
+  margin-bottom: 200px;
 }
 
 .circle {
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 20px auto 0; /* Aumentar el margen superior */
-  border: 5px solid lightblue;
+  margin: 20px auto 0;
+  border: 10px solid rgb(255, 255, 0);
   border-radius: 50%;
   background-color: transparent;
 }
@@ -124,16 +142,44 @@ function getLinkStyle(index) {
   text-align: center;
 }
 
+.student-image {
+  margin-bottom: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+.small-image {
+  width: 120px;
+  height: 100px;
+}
+
+.medium-image {
+  width: 90px;
+  height: 90px;
+}
+
+.large-image {
+  width: 90px;
+  height: 110px;
+}
+
+.peque-image {
+  width: 110px;
+  height: 90px;
+}
+
+.larger-image {
+  width: 80px;
+  height: 100px;
+}
+
 .node-link {
   display: block;
+  color: black;
   padding: 2px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
-  font-size: 20px; /* Ajustar tamaño de fuente para que quepa mejor */
+  font-size: 20px;
   text-decoration: none;
-}
-
-.node-link:hover {
-  opacity: 0.8; /* Efecto al pasar el ratón */
 }
 </style>
