@@ -1,13 +1,13 @@
 <script setup>
 import { ref } from 'vue';
-const titulo='Desarrollador Full Stack';
-const fecha='Desde Enero 2022 / Julio 2024';
+const titulo='Mi Trayectoria en la Programación';
+const fecha='Desde Enero 2022 / ...';
 const experiencias = ref([
-    {id:1, src:'/src/assets/ventas.svg', parrafo: 'Lideré un grupo de desarrolladores en la crecaión de una plataforma para un negocio'},
-    {id:2, src:'src/assets/ecomerce.svg', parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB'},
-    {id:3, src: 'src/assets/configuracion.svg', parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web'},
-    {id:4, src: 'src/assets/uiux.svg', parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar'},
-    {id:5, src: 'src/assets/watch.svg', parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker'}
+    {id:1, src:'/src/assets/ventas.svg', parrafo: 'Me atrae la programación y he dedicado numerosas horas a aprender y practicar diferentes lenguajes.'},
+    {id:2, src:'src/assets/ecomerce.svg', parrafo: 'He completado varios proyectos personales que me han permitido aplicar mis conocimientos y mejorar mis habilidades técnicas.'},
+    {id:3, src: 'src/assets/configuracion.svg', parrafo: 'Mi dedicación al aprendizaje continuo me ha llevado a dominar conceptos clave en desarrollo web y software.'},
+    {id:4, src: 'src/assets/uiux.svg', parrafo: 'A través de cursos en línea y recursos autodidactas, he adquirido una sólida comprensión de las mejores prácticas en programación.'},
+    {id:5, src: 'src/assets/watch.svg', parrafo: 'Estoy comprometida a seguir creciendo profesionalmente y estoy entusiasmado por las oportunidades de aplicar mis habilidades en un entorno profesional.'}
 ])
 </script>
 

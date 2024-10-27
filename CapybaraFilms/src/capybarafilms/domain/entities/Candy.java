@@ -1,6 +1,6 @@
 package capybarafilms.domain.entities;
 
-import types.TipoCandy;
+import capybarafilms.domain.entities.types.TipoCandy;
 
 public class Candy {
 

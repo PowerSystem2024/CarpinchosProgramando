@@ -9,7 +9,7 @@ const redesSociales = [
     {id: 3,name: 'github', src: '/src/assets/github_icon.svg', url: 'https://github.com/Mariana3726'},
     {id: 4,name: 'curriculum', src: '/src/assets/cv_resume_icon.svg', url:''},
 ];
-const telefono = '+54 9 2604-3119088';
+const telefono = '+54 9 2604-319088';
 </script>
 
 <template>
@@ -40,7 +40,7 @@ p {
 }
 
 .card {
-    background-color: rgb(28, 41, 52);
+    background-color: rgb(46, 64, 83);
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -63,7 +63,7 @@ p {
     box-shadow: 0 0 5px rgba(251, 249, 249, 0.934);
 }
 .icon-redsocial:hover {
-    background-color: rgb(28, 41, 52);
+    background-color: rgb(22, 66, 102);
     box-shadow: 0 0 rgba(251, 249, 249, 0.934);
 }
 h3 {
