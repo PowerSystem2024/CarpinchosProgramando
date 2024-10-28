@@ -7,7 +7,7 @@
         <div class="card">
             <h1>Ana Paula Ríos Garín</h1>
             <h2>Técnica Universitaria en Programación - UTN</h2>
-            <p>Hola, bienvenido a mi portafolio, soy una desarrolladora web con experienxia en el desarrollo de aplicaciones web y móviles</p>
+            <p>Hola, bienvenido a mi portafolio, soy una desarrolladora web con experiencia en el desarrollo de aplicaciones web y móviles</p>
             <ul class="containerLista">
                 <li><a class="datosPersonales-img" href=""><img class="iconRedSocial" src="./icons/LinkedIn.ico" width="35rem" alt="">LinkedIn</a></li>
                 <li><a class="datosPersonales-img" href=""><img class="iconRedSocial" src="./icons/GitHub.ico" width="35rem" alt="">GitHub</a></li>
