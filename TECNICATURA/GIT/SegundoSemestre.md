@@ -466,18 +466,22 @@ git log --stat #Se verá claro que el colaborador ingreso su primer commit
 
 # **Clase 10**
 
-Flujo de trabajo profesional
+## Flujo de trabajo profesional
 
-Haciendo merge de ramas de desarrollo a main
+### Haciendo merge de ramas de desarrollo a main
 
-Para poder desarrollar software de manera óptima y ordenada, necesitamos tener un flujo de trabajo profesional, que nos permita trabajar en conjunto sin interrumpir el trabajo de otros desarrolladores.
+### Para poder desarrollar software de manera óptima y ordenada, necesitamos tener un flujo de trabajo profesional, que nos permita trabajar en conjunto sin interrumpir el trabajo de otros desarrolladores.
 
-Una buena práctica de flujo de trabajo sería la siguiente:
+### Una buena práctica de flujo de trabajo sería la siguiente:
 
 Crear ramas
 Asignar una rama a cada programador
-El programador baja el repositorio con git pull origin master
-El programador cambia de rama
-El programador trabaja en esa rama y hace commits
-El programador sube su trabajo con git push origin #nombre_rama
-El encargado de organizar el proyecto baja, revisa y unifica todos los cambios
+• El programador baja el repositorio con git pull origin master
+• El programador cambia de rama
+• El programador trabaja en esa rama y hace commits
+• El programador sube su trabajo con git push origin #nombre_rama
+• El encargado de organizar el proyecto baja, revisa y unifica todos los cambios.
+
+![clase 10 git](https://github.com/user-attachments/assets/d671b68e-3eed-4e24-a213-0dd4f3cab365)
+
+# **Clase 11**
