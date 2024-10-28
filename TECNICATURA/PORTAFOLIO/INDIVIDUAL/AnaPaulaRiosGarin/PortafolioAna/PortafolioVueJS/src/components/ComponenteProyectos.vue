@@ -23,7 +23,7 @@
                 <p>Creé una página web para una equivalencia del Instituto Leonardo Murialdo con los lenguajes HTML, CSS y JavaScript.</p>
                 <div class="proyectoLinks">
                     <a href="" class="btnVerMas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
-                    <a href="" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
+                    <a href="https://github.com/anaprg05/EquivalenciasElectro.git" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <p>Creé una página web para una equivalencia del Instituto Leonardo Murialdo con los lenguajes HTML, CSS y JavaScript.</p>
                 <div class="proyectoLinks">
                     <a href="" class="btnVerMas" target="_blank" rel="noopener noreferrer">Ver Proyecto</a>
-                    <a href="" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
+                    <a href="https://github.com/anaprg05/EquivalenciasElectro.git" class="githubLink" target="_blank" rel="noopener noreferrer">Ver Código en GitHub</a>
                 </div>
             </div>
         </div>

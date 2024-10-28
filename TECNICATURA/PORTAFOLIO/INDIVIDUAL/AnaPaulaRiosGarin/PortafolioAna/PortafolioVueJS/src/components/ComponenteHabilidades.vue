@@ -24,7 +24,8 @@ const habilidades = ref ([
         { id: 3, nombre: 'NetBeans', nivel: 'Principiante', icono: '/src/assets/Habilidades/netbeans.svg' },
         { id: 4, nombre: 'Arduino', nivel: 'Principiante', icono: '/src/assets/Habilidades/arduino.svg' },
         { id: 5, nombre: 'Git', nivel: 'Principiante', icono: '/src/assets/Habilidades/git.svg' },
-        { id: 6, nombre: 'Photoshop', nivel: 'Intermedio', icono: '/src/assets/Habilidades/photoshop.svg' }
+        { id: 6, nombre: 'Photoshop', nivel: 'Intermedio', icono: '/src/assets/Habilidades/photoshop.svg' },
+        { id: 7, nombre: 'Clip Studio Paint', nivel: 'Intermedio', icono: '/src/assets/Habilidades/clipstudiopaint.svg' }
 
     ]
 },
@@ -61,7 +62,8 @@ const habilidadesBlandas = ref ([
         { id: 2, nombre: 'Trabajo en equipo', icono: '/src/assets/Habilidades/trabajoenequipo.svg' },
         { id: 3, nombre: 'Aprendizaje rápido', icono: '/src/assets/Habilidades/aprendizajerapido.svg' },
         { id: 4, nombre: 'Empatía', icono: '/src/assets/Habilidades/empatia.svg' },
-        { id: 5, nombre: 'Capacidad para aceptar críticas constructivas', icono: '/src/assets/Habilidades/criticasconstructivas.svg' }
+        { id: 5, nombre: 'Capacidad para aceptar críticas constructivas', icono: '/src/assets/Habilidades/criticasconstructivas.svg' },
+        { id: 6, nombre: 'Creatividad', icono: '/src/assets/Habilidades/creatividad.svg' }
     ]
 }
 ]);

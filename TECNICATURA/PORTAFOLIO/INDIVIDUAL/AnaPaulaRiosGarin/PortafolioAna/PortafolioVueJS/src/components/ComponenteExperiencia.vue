@@ -1,25 +1,40 @@
 
 <script setup>
 import { ref } from 'vue';
-const titulo = 'Desarrollador Full Stack';
-const fecha = 'Desde Enero 2022 / Julio 2024';
+const titulo = 'Enfocada en adquirir experiencia práctica';
+const descripcion = 'Me encuentro en búsqueda de nuevos desafíos, siempre dispuesta a aprender nuevas tecnologías y trabajar en equipo para lograr un producto de buena calidad';
+const subtitulo = 'Proyectos Personales en Programación';
 
 const experiencias = ref([
-    { id: 1, src: '/src/assets/Experiencia/ventas.svg', parrafo: 'Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.' },
-    { id: 2, src: '/src/assets/Experiencia/ecomerce.svg', parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.' },
-    { id: 3, src: '/src/assets/Experiencia/configuracion.svg', parrafo: 'Implementé soluciones de autenticación y autorización, mejorando la seguridad del sitio web y reduciendo los intentos de acceso no autorizado en un 20%.' },
-    { id: 4, src: '/src/assets/Experiencia/uiux.svg', parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.' },
-    { id: 5, src: '/src/assets/Experiencia/watch.svg', parrafo: 'Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.' },
+    { id: 1, src: '/src/assets/Experiencia/programacion.svg', parrafo: 'Durante mi trayecto como programadora he participado de varios proyectos y pasantías los cuales me permitieron aumentar y profesionalizar mis conocimientos.' },
+    { id: 2, src: '/src/assets/Experiencia/web.svg', parrafo: 'En todos los proyectos que participé, implementé varias de las tecnologías que se utilizan actualmente como HTML, CSS, JavaScript, Bootstrap, NodeJS y VueJS, desarrollando habilidades en desarrollo web.' },
+    { id:3, src:'/src/assets/Experiencia/tick.svg', parrafo: 'Esto me ha permitido adquirir experiencia práctica, y mejorar mis habilidades en resolución de problemas, depuración y lógica de programación.' }
 ]);
-</script>
+
+const subtitulo2 = 'Proyectos Personales en Ilustración';
+const experiencias2 = ref([
+    { id: 1, src: '/src/assets/Experiencia/ilustracion.svg', parrafo: 'Durante mi trayecto dentro del área de ilustración, he desarrollado proyectos personales para fortalecer mis habilidades y conocimientos en esta área. ' },
+    { id: 2, src: '/src/assets/Experiencia/dibujo.svg', parrafo: 'He trabajado en ilustraciones tanto tradicionales como digitales, diseño de personajes y diseño de escenarios, utilizando herramientas como Clip Paint Studio y Adobe Photoshop' },
+    { id:3, src:'/src/assets/Experiencia/color.svg', parrafo: 'Estos proyectos me han permitido mejorar en técnicas de composición, manejo de color y estilo personal, así como en mi habilidad para comunicar ideas visualmente de manera creativa y profesional.' }
+]);
+
+</script> 
 
 <template>
     <div class="card">
         <h3 class="titulo">{{ titulo.toLocaleUpperCase() }}</h3>
-        <p class="fecha">{{ fecha }}</p>
+        <p class="descripcion">{{ descripcion }}</p>
+        <p class="subtitulo">{{ subtitulo }}</p>
         <ul class="listado">
             <li class="item" v-for="experencia in experiencias" :key="experencia.id">
-                <img class="imagen-svg" :src="experencia.src" width="45rem" :alt="experencia.parrafo">
+                <img class="imagenSvg" :src="experencia.src" width="45rem" :alt="experencia.parrafo">
+                <p>{{ experencia.parrafo }}</p>
+            </li>
+        </ul>
+        <p class="subtitulo">{{ subtitulo2 }}</p>
+        <ul class="listado">
+            <li class="item" v-for="experencia in experiencias2" :key="experencia.id">
+                <img class="imagenSvg" :src="experencia.src" width="45rem" :alt="experencia.parrafo">
                 <p>{{ experencia.parrafo }}</p>
             </li>
         </ul>
@@ -37,12 +52,17 @@ const experiencias = ref([
 
 .titulo {
     font-size: 1.5rem;
-    color: #ADC178;
+    color: #b6cf6f;
 }
 
-.fecha {
+.descripcion {
+    font-size: 1.1rem;
+    color: #B9CA88;
+}
+
+.subtitulo {
     font-size: 1rem;
-    color: #ABA370;
+    color: #a8b385;
     margin-bottom: 1rem;
 }
 
@@ -56,6 +76,11 @@ const experiencias = ref([
     display: flex;
     padding: 1rem;
     gap: 1.5rem;
+}
+
+.imagenSvg {
+    height: 30px;
+    width: 30px;
 }
 
 p {
