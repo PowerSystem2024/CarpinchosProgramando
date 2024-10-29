@@ -61,7 +61,7 @@ body {
 
 /* Estilos para la lista */
 ul {
-    margin-top: 2rem;
+  margin-top: 2rem;
   --col-gap: 2rem; /* Espacio entre las columnas de la cuadrícula */
   --row-gap: 2rem; /* Espacio entre las filas de la cuadrícula */
   --line-w: 0.25rem; /* Ancho de la línea que conecta los elementos de la lista */
@@ -153,12 +153,12 @@ ul li .title {
   overflow: hidden; /* Oculta cualquier contenido que se desborde */
   padding-block-start: 1.5rem; /* Espaciado interno superior */
   padding-block-end: 1rem; /* Espaciado interno inferior */
-  font-weight: 500; /* Hace el texto del título un poco más grueso */
+  font-weight: 600; /* Hace el texto del título un poco más grueso */
 }
 
 ul li .descripcion {
   padding-block-end: 1.5rem; /* Espaciado interno inferior */
-  font-weight: 300; /* Hace el texto de la descripción más delgado */
+  font-weight: 400; /* Hace el texto de la descripción más delgado */
   color: #9B8965;
 }
 
@@ -191,6 +191,11 @@ section h3 {
 
 a.enlace {
     color: #91a951;
+    font-weight: 500;
+}
+
+a.enlace:hover {
+  text-decoration: underline;
 }
 
 /* Media query para pantallas anchas (40rem o más) */

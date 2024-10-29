@@ -1,21 +1,39 @@
 <script setup>
-    
+// Importación de componentes (img)
+import LinkedIn from "./icons/LinkedIn.ico";
+import GitHub from "./icons/GitHub.ico";
+import CurriculumVitae from "./icons/Curriculum Vitae.ico";
+
+const titulo = "Ana Paula Ríos Garín";
+    const descripcion = "Tecnica Universitaria en Programación - UTN";
+    const residencia = "Tres de Febrero, Buenos Aires, Argentina";
+    const presentacion = "Hola, bienvenido a mi portafolio, soy una desarrolladora web con experiencia en el desarrollo de aplicaciones web y móviles.";
+    const telefono = "+54 9 11 5617-6194";
+    const mail = "anapaulariosgarin@gmail.com"
+    const redesSociales = [
+        {id: 1, name: "LinkedIn", src: LinkedIn, url: "www.linkedin.com/in/anapaularíosgarín"},
+        {id: 2, name: "GitHub", src: GitHub, url: "https://github.com/anaprg05"},
+        {id: 3, name: "Curriculum Vitae", src: CurriculumVitae, url: "https://www.canva.com/design/DAGPt5_Bvv0/tHZ-6Si8BzCF7xjJRDghXQ/edit?utm_content=DAGPt5_Bvv0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"}
+    ];
+
 </script>
 
 <template>
     <section class="datosPersonales">
         <div class="card">
-            <h1>Ana Paula Ríos Garín</h1>
-            <h2>Técnica Universitaria en Programación - UTN</h2>
-            <p>Hola, bienvenido a mi portafolio, soy una desarrolladora web con experiencia en el desarrollo de aplicaciones web y móviles</p>
+            <h1>{{ titulo }}</h1>
+            <h2>{{ descripcion }}</h2>
+            <p>{{ presentacion }}</p>
             <ul class="containerLista">
-                <li><a class="datosPersonales-img" href=""><img class="iconRedSocial" src="./icons/LinkedIn.ico" width="35rem" alt="">LinkedIn</a></li>
-                <li><a class="datosPersonales-img" href=""><img class="iconRedSocial" src="./icons/GitHub.ico" width="35rem" alt="">GitHub</a></li>
-                <li><a class="datosPersonales-img" href=""><img class="iconRedSocial" src="./icons/Curriculum Vitae.ico" width="35rem" alt="">Curriculum Vitae</a></li>
+                <li v-for="red in redesSociales" :key="red.id">
+                    <a :href="red.url" target="_blank">
+                        <img class="iconRedSocial" :src="red.src" width="35rem" :alt="red.name">
+                    </a>
+                </li>
             </ul>
-            <h3>Mi teléfono personal: +54 9 11 5617-6194</h3>
-            <h3>Mi correo electrónico: anapaulariosgarin@gmail.com</h3>
-            <h4>Tres de Febrero, Buenos Aires, Argentina</h4>
+            <h3>Mi teléfono personal: {{ telefono }}</h3>
+            <h3>Mi correo electrónico: {{ mail }}</h3>
+            <h4>{{ residencia }}</h4>
         </div>
     </section>
 </template>
@@ -75,11 +93,5 @@ a {
 h1 {
     font-size: 1.2rem;
     font-weight: 600;
-}
-
-.datosPersonales-img {
-    display: grid;
-    margin: 10px;
-    justify-items: center;
 }
 </style>
