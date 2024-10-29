@@ -44,7 +44,7 @@ const students = ref([
   { name: "Atim, Maria Mercedes", portfolio: "https://mariamercedesatim.netlify.app/", image: MercedesImage, size: 'medium-image' },
   { name: "Lanatta, Wanda Oriana", portfolio: "/portafolio4", image: WandaImage, size: 'medium-image' },
   { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5", image: NicolasImage, size: 'larger-image' }, // Más grande
-  { name: "Rios, Nelson Omar", portfolio: "/portafolio6", image: NelsonImage, size: 'large-image' }, // Más grande
+  { name: "Rios, Nelson Omar", portfolio: "https://nelsonrios.netlify.app/", image: NelsonImage, size: 'large-image' }, // Más grande
   { name: "Rios Garin, Ana Paula", portfolio: "/portafolio7", image: AnaImage, size: 'medium-image' },
 ]);
 
