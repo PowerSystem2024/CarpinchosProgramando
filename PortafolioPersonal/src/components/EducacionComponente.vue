@@ -11,7 +11,9 @@ fechaColor.value = [
 const educacion = ref ([]);
 educacion.value = [
     {fecha: '2024', tittle: 'Tecnicatura Universitaria en Programacion', descripcion: 'Operación y programación de computadoras, desarrollo de programas en distintos lenguajes, análisis y control de sistemas informáticos.', enlace:'http:youtube.com'},
-    {fecha: '2021', tittle: 'Tecnica universitaria en Cosmetologia facial y corporal', descripcion: 'Universidad de Buenos Aires', enlace: 'http:youtube.com'}
+    {fecha: '2023', tittle: 'Curso de Base de Datos', descripcion: 'Completé un curso intensivo sobre bases de datos, donde aprendí sobre modelado de datos, SQL y administración de bases de datos.', enlace:'https://www.coderhouse.com/ar/'},
+    {fecha: '2022', tittle: "Diplomado en Seguridad Informática", descripcion: "Realicé un diplomado especializado en seguridad informática, donde adquirí conocimientos sobre criptografía, gestión de riesgos, y técnicas de protección contra amenazas cibernéticas.", enlace: "https://www.seguridadinformatica.com" }
+  
 ]
 </script>
 
@@ -162,7 +164,7 @@ ul li .descripcion::before{
     position: absolute; /*Posiciona la sombra respecto al contenedor del titulo o descripcion */
     width: 90%; /*Ancho de la sombra */
     height: 0.5rem; /*Altura de la sombra */
-    background: rgb(0, 0, 0, 0.5); /*Color de fondo oscuro para simular una sombra */
+    background: #586875; /*Color de fondo oscuro para simular una sombra */
     left: 50%; /*Centra la sombra horizontalmente */
     border-radius: 50%; /*Bordes redondeados para la sombra */
     filter: blur(4px); /*Aplica un desenfoque para hacer la sombra mas suave */

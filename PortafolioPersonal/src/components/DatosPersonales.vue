@@ -1,13 +1,22 @@
 <script setup>
+
+
+import LinkedIn from "/src/assets/linkedin_icon.svg";
+import Instagram from "/src/assets/instagram_icon.svg";
+import GitHub from "/src/assets/github_icon.svg";
+import Curriculum from "/src/assets/cv_resume_icon.svg";
+
+
+
 const tittle = "Wanda Lanatta";
 const descripcion = "Tecnico Universitario en Programacion - UTN";
 const residencia = "Mendoza, Ciudad de Mendoza, Argentina";
 const presentacion = "Hola, bienvenido a mi portafolio de proyectos.";
 const redesSociales = [
-    {id: 1, name: "LinkedIn", src: "/src/assets/linkedin_icon.svg", url: 'https://www.linkedin.com/in/'},
-    {id: 2, name: "Instagram", src: "/src/assets/instagram_icon.svg", url: 'https://www.instagram.com'},
-    {id: 3, name: "GitHub", src: "/src/assets/github_icon.svg", url: 'https://github.com/wandaoriana'},
-    {id: 4, name: "Curriculum", src: "/src/assets/cv_resume_icon.svg", url: ' '},           
+    {id: 1, name: "LinkedIn", src: LinkedIn , url: 'https://www.linkedin.com/WandaLanatta/'},
+    {id: 2, name: "Instagram", src: Instagram , url: 'https://www.instagram.com/wanda.oriana/'},
+    {id: 3, name: "GitHub", src: GitHub, url: 'https://github.com/wandaoriana'},
+    {id: 4, name: "Curriculum", src: Curriculum, url: ' '},           
 ];
 const telefono =  "+541133146155";
 </script>

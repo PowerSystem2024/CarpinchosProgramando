@@ -4,6 +4,8 @@
   import Educacion from './components/EducacionComponente.vue';
   import ExperienciaComponente from './components/ExperienciaComponente.vue';
   import ProyectosComponente from './components/ProyectosComponente.vue';
+ import Habilidades from "./components/HabilidadesComponente.vue"
+ import Intereses from './components/InteresesComponente.vue';
 </script>
 
 <template>
@@ -33,13 +35,32 @@
       <ProyectosComponente />
       </section>
 
-      <section id="habilidades"><h2>Habilidades</h2></section>
-      <section id="intereses"><h2>Intereses</h2></section>
+      <section id="habilidades"><h2>Habilidades
+      <!-- Componente habilidades -->
+       <Habilidades/>
+    </h2></section>
+    
+    <section id="intereses"><h2>Intereses</h2>
+      <!-- Componente intereses -->
+       <Intereses/>
+    </section>
+
+      
   </main>
-  
+  <footer>
+    <a href="#top">Inicio</a>
+    <p>@ 2024 Wanda Lanatta - Portafolio web</p>
+  </footer>
+
 
 </template>
 
 <style scoped>
-
+footer { 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:2rem;
+  font-size: 1.3rem;
+ }
 </style>

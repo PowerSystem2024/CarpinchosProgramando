@@ -1,47 +1,45 @@
+
 <script setup>
-
+import { ref } from "vue";
+import Marketplace from '/src/assets/proyecto.png';
+ import Aprendizaje from "/src/assets/33.png";
+ import Pago from "/src/assets/montaje.3.png";
+const proyectos = ref([
+    {
+        id: 1,
+        nombre: "Marketplace",
+        descripcion: "Desarrollé un marketplace que facilitó la conexión entre compradores y vendedores, aumentando el tráfico web en un 50% durante los primeros seis meses",
+        imagenes: [Marketplace],
+       
+    },
+    {
+        id: 2,
+        nombre: "Plataforma de Aprendizaje Online",
+        descripcion: "Diseña una plataforma donde los usuarios puedan inscribirse en cursos, ver contenido multimedia, y realizar exámenes.",
+        imagenes: [Aprendizaje],
+    
+    },
+    {
+        id: 3,
+        nombre: "Pago Seguro",
+        descripcion: "Diseñé un sistema de pagos seguro que integró múltiples métodos de pago, mejorando la confianza de los clientes y reduciendo el abandono de carritos en un 15%.",
+        imagenes: [Pago],
+      
+    },
+]);
 </script>
-
+ 
 <template>
     <div class="galeria">
-        <div class="proyecto">
-            <img src="/src/assets/proyecto.png" alt="Proyecto 1">
+        <div class="proyecto" v-for="proyecto in proyectos" :key="proyecto.id">
             <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Desarrollé un marketplace que facilitó la conexión entre compradores y vendedores, aumentando el tráfico web en un 50% durante los primeros seis meses.</p>
-                <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
-                        Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
+                <h3>{{ proyecto.nombre }}</h3>
+                <p>{{ proyecto.descripcion }}</p>
+                <div class="imagenes">
+                    <img v-for="(img, index) in proyecto.imagenes" :key="index" :src="img" alt="Proyecto" class="proyecto-imagen"/>
                 </div>
             </div>
-        </div>
-        <div class="proyecto">
-            <img src="/src/assets/proyecto.png" alt="Proyecto 1">
-            <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Lancé una plataforma de subastas en línea que mejoró la tasa de conversión en un 20% al optimizar la experiencia del usuario.</p>
-                <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
-                        Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
-                </div>
-            </div>
-        </div>
-        <div class="proyecto">
-            <img src="/src/assets/proyecto.png" alt="Proyecto 1">
-            <div class="proyecto-info">
-                <h3>Ecomerce </h3>
-                <p>Diseñé un sistema de pagos seguro que integró múltiples métodos de pago, mejorando la confianza de los clientes y reduciendo el abandono de carritos en un 15%.</p>
-                <div class="proyecto-links">
-                    <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
-                        Proyecto</a>
-                    <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank"
-                        rel="noopener noreferrer">Ver Código en GitHub</a>
-                </div>
-            </div>
+    
         </div>
     </div>
 
@@ -212,4 +210,7 @@
     /* Añade un subrayado al texto */
     text-decoration: underline;
 }
+
+
+
 </style>

@@ -3,8 +3,11 @@ import { ref } from 'vue';
 const titulo = 'Desarrollador Full Stack';
 const fecha = 'Desde Marzo 2024';
 const experiencias = ref([
-    {id: 1, src:'/src/assets/ventas.svg', parrafo: 'Lidere un equipo de 5 desarrolladores'}
-])
+        { id: 1, src: 'src/assets/ventas.svg', parrafo: 'Líder en un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.' },
+        { id: 2, src: '/src/assets/ecommerce.svg', parrafo: 'Diseñé y desarrollé aplicaciones web utilizando Node.js, React y MongoDB, logrando reducir el tiempo de carga de las páginas en un 50%.' },
+        { id: 4, src: '/src/assets/uiux.svg', parrafo: 'Colaboré con diseñadores de UX/UI para crear interfaces de usuario atractivas y fáciles de usar, aumentando la satisfacción del cliente en un 15%.' },
+        { id: 5, src: '/src/assets/watch.svg', parrafo: 'Automatizé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.' }
+    ]);
 </script>
 
 <template>
