@@ -57,6 +57,10 @@
 
 // STYLE - CSS
 <style scoped>
+h2{
+  font-weight: 700;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -68,6 +72,10 @@ footer {
 
 footer a, p {
   color: #ADC178;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 </style>
 

@@ -27,6 +27,7 @@ const navegacion= ref([
 a {
   padding: 5px;
   color: #DDE5B6;
+  font-weight: 400;
 }
 
 .navBar {
@@ -41,6 +42,10 @@ a {
   color: #C5D397;
   text-decoration: none;
   margin-right: 1rem;
+}
+
+.navItem:hover {
+  text-decoration: underline;
 }
 
 .navBarMenu {

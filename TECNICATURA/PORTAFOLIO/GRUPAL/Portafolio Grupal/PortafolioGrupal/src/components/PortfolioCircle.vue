@@ -39,13 +39,13 @@ import NelsonImage from '@/assets/Nelson.png';
 import AnaImage from '@/assets/Ana.png'; // Cambiado a Ana.png
 
 const students = ref([
-  { name: "Aguilar, Melina Elizabeth", portfolio: "/portafolio1", image: MelinaImage, size: 'peque-image' },
-  { name: "Aguilera, Mariana Florencia", portfolio: "/portafolio2", image: MarianaImage, size: 'small-image' },
+  { name: "Aguilar, Melina Elizabeth", portfolio: "https://portafolio-vuejs-melina.netlify.app/", image: MelinaImage, size: 'peque-image' },
+  { name: "Aguilera, Mariana Florencia", portfolio: "https://marianafaguilera.netlify.app/", image: MarianaImage, size: 'small-image' },
   { name: "Atim, Maria Mercedes", portfolio: "https://mariamercedesatim.netlify.app/", image: MercedesImage, size: 'medium-image' },
-  { name: "Lanatta, Wanda Oriana", portfolio: "/portafolio4", image: WandaImage, size: 'medium-image' },
+  { name: "Lanatta, Wanda Oriana", portfolio: "https://wandalanatta.netlify.app/", image: WandaImage, size: 'medium-image' },
   { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5", image: NicolasImage, size: 'larger-image' }, // Más grande
-  { name: "Rios, Nelson Omar", portfolio: "/portafolio6", image: NelsonImage, size: 'large-image' }, // Más grande
-  { name: "Rios Garin, Ana Paula", portfolio: "/portafolio7", image: AnaImage, size: 'medium-image' },
+  { name: "Rios, Nelson Omar", portfolio: "https://nelsonrios.netlify.app/", image: NelsonImage, size: 'large-image' }, // Más grande
+  { name: "Rios Garin, Ana Paula", portfolio: "https://anapaulariosgarin.netlify.app/", image: AnaImage, size: 'medium-image' },
 ]);
 
 function getNodeStyle(index) {
