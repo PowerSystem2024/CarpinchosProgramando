@@ -10,27 +10,38 @@ public class ServicioValidacion {
 
     // Método que obtiene los datos del cliente y valida la información
     public Cliente obtenerDatosCliente() {
+    String nombre; // Declarar fuera del bucle
+    do {
         System.out.println("Ingrese su nombre: ");
-        String nombre = entrada.nextLine(); // Lee el nombre del cliente
+        nombre = entrada.nextLine(); // Lee el nombre del cliente
+        if (nombre.isEmpty()) {
+            System.out.println("El nombre no puede estar vacío. Intente de nuevo.");
+        }
+    } while (nombre.isEmpty()); // Repite hasta que el nombre sea válido
 
+    String apellido; // Declarar fuera del bucle
+    do {
         System.out.println("Ingrese su apellido: ");
-        String apellido = entrada.nextLine(); // Lee el apellido del cliente
+        apellido = entrada.nextLine(); // Lee el apellido del cliente
+        if (apellido.isEmpty()) {
+            System.out.println("El apellido no puede estar vacío. Intente de nuevo.");
+        }
+    } while (apellido.isEmpty()); // Repite hasta que el apellido sea válido
+    String dni = obtenerDniValido(); // Obtiene un DNI válido
+    String mail;
+    // Ciclo para validar el correo electrónico
+    do {
+        System.out.println("Ingrese su mail (debe contener '@' y terminar con '.com'): ");
+        mail = entrada.nextLine(); // Lee el correo electrónico
+        // Verifica que el correo contenga '@' y termine en '.com'
+        if (!mail.contains("@") || !mail.endsWith(".com")) {
+            System.out.println("Correo electrónico inválido.");
+        }
+    } while (!mail.contains("@") || !mail.endsWith(".com")); // Repite hasta que el correo sea válido
 
-        String dni = obtenerDniValido(); // Obtiene un DNI válido
+    return new Cliente(nombre, apellido, dni, mail); // Devuelve un nuevo cliente con los datos ingresados
+}
 
-        String mail;
-        // Ciclo para validar el correo electrónico
-        do {
-            System.out.println("Ingrese su mail (debe contener '@' y '.com'): ");
-            mail = entrada.nextLine(); // Lee el correo electrónico
-            // Verifica que el correo contenga '@' y termine en '.com'
-            if (!mail.contains("@") || !mail.endsWith(".com")) {
-                System.out.println("Correo electrónico inválido.");
-            }
-        } while (!mail.contains("@") || !mail.endsWith(".com")); // Repite hasta que el correo sea válido
-
-        return new Cliente(nombre, apellido, dni, mail); // Devuelve un nuevo cliente con los datos ingresados
-    }
 
     // Método que valida el DNI del cliente
     private String obtenerDniValido() {

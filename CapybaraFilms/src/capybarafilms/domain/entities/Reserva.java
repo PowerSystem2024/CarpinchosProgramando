@@ -53,9 +53,9 @@ public class Reserva {
 
     // Método que muestra un resumen de la reserva.
     public void mostrarResumen() {
-        System.out.println("---------------------------------------");
-        System.out.println("  Resumen de la Reserva:  ");
-        System.out.println("---------------------------------------");
+        System.out.println("------------------------------------------");
+        System.out.println("--  Resumen de la Reserva:  --");
+        System.out.println("------------------------------------------");
         System.out.println("Cliente: " + cliente.getNombre() + " " + cliente.getApellido()); // Muestra el nombre del cliente.
         System.out.println("Sala: " + sala.toString()); // Muestra la sala.
         System.out.println("Butacas Reservadas:");
@@ -69,6 +69,7 @@ public class Reserva {
                     + ", Butaca: " + butaca.getUbicacion().getButaca()
                     + " | Tipo: " + tipo
                     + " | Precio: " + precioEntrada); // Muestra la información de la butaca.
+            System.out.println("------------------------------------------");
         }
         if (candy != null) {
             double precioCombo = candy.getTipo().getPrecio(); // Obtiene el precio del combo.
@@ -78,7 +79,9 @@ public class Reserva {
             System.out.println("No se eligió combo."); // Indica que no se eligió combo.
         }
         double total = totalEntradas + (candy != null ? candy.getTipo().getPrecio() : 0); // Calcula el total final.
+        System.out.println("------------------------------------------");
         System.out.println("Total a Pagar: " + total); // Muestra el total a pagar.
+        System.out.println("------------------------------------------");
         System.out.println("Usted recibirá su comprobante al correo electrónico: " + cliente.geteMail());
     }
 }

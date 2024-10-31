@@ -18,29 +18,34 @@ public class ComprarEntradaTest {
         ServicioCompraEntradas servicioCompra = new ServicioCompraEntradas(); // Instanciamos un servicio de compra
 
         servicioCompra.iniciarCompra(); // Invoca el método para mostrar el mensaje de bienvenida
-        
+
         // Obtener datos del cliente
         Cliente cliente = validacion.obtenerDatosCliente();
-
+        System.out.println("");
+    
         // Mostrar y seleccionar película
         servicioCompra.mostrarPeliculas();
         int peliculaIndex = servicioCompra.seleccionarPelicula();
-
+        System.out.println("");
+        
         // Seleccionar cantidad de entradas
         int cantidadEntradas = servicioCompra.solicitarCantidadEntradas();
-
-        // Seleccionar combo de Candy
-        Candy candy = null; // Implementar lógica si es necesario
-
+        System.out.println("");
+        
         // Obtener la película y crear la sala
         Pelicula peliculaSeleccionada = Catalogo.getPeliculas().get(peliculaIndex);
         Sala sala = new Sala(peliculaSeleccionada);
+        System.out.println("");
 
         // Seleccionar butacas
         List<Butaca> butacasAsignadas = servicioCompra.seleccionarButacas(cantidadEntradas, sala);
-
+        System.out.println("");
+        
+        // Seleccionar combo de Candy
+        Candy combo = servicioCompra.seleccionarCombo();
+        
         // Realizar la reserva
-        Reserva reserva = servicioCompra.realizarReserva(cliente, sala, candy, butacasAsignadas);
+        Reserva reserva = servicioCompra.realizarReserva(cliente, sala, combo, butacasAsignadas);
 
         // Mostrar el resumen de la reserva
         reserva.mostrarResumen();
