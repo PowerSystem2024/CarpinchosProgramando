@@ -37,6 +37,7 @@ p {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 1rem;
+    color: grey;
 }
 
 .card {
@@ -69,6 +70,9 @@ p {
 h3 {
     font-size: 1.2rem;
     font-weight: 600;
+}
+h1{
+    color: grey;
 }
 
 

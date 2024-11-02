@@ -7,6 +7,7 @@
         (Universidad Tecnológica Nacional FRSR). Actualmente estamos cursando el
         segundo semestre y pertenecemos a la cohorte 2024. Durante este trayecto
         formativo, estamos aprendiendo en la Cátedra Programación II, lenguajes de programación como Java, JavaScript, Python y herramientas como Vue.js y Git.
+        <br><br>Por favor, para ver los portafolios tocar el nombre del alumno.
       </p>
     </div>
 

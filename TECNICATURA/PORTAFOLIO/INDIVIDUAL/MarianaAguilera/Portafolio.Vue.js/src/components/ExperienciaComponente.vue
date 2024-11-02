@@ -68,5 +68,6 @@ const experiencias = ref([
     display: flex;
     padding: 1rem;
     gap: 1.5rem;
+    color: grey;
 }
 </style>

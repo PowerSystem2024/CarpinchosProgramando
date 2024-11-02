@@ -55,6 +55,8 @@ footer {
   padding: 2rem;
   font-size: 1.3rem;
 }
-
+h2{
+  color: grey;
+}
 
 </style>
