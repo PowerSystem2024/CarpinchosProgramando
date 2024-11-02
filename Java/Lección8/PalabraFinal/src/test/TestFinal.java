@@ -14,7 +14,7 @@ import domain.Persona;
 public class TestFinal {
 
     public static void main(String[] args) {
-        final int miDni = 33344339;
+        final int miDni = 40639651;
         System.out.println("miDni = " + miDni);
         // miDni = 44333865; No se puede asignar un valor porque es final(es constante)
         //Persona.CONSTANTE_AQUI = 9; // No se puede modificar
@@ -22,9 +22,9 @@ public class TestFinal {
 
         final Persona persona1 = new Persona();
         //persona1 = new Persona(); No se puede asignar una nueva referencia
-        persona1.setNombre("Nelson R: ");
+        persona1.setNombre(" Wanda L: ");
         System.out.println("persona1 nombre: " + persona1.getNombre());
-        persona1.setNombre("Analía");//No se puede hacer una nueva referencia, pero sí modificar el valor del atributo
+        persona1.setNombre("Oriana");//No se puede hacer una nueva referencia, pero sí modificar el valor del atributo
         System.out.println("persona1 nombre: " + persona1.getNombre());
     }
 
