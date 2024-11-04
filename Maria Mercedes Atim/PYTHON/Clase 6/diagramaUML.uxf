@@ -1,0 +1,16 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>220</x><y>90</y><w>210</w><h>100</h></coordinates><panel_attributes>Persona
+--
+-nombre: str
+-apellido: str
+-edad: int
+--
+mostrarDetalle()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>310</y><w>210</w><h>80</h></coordinates><panel_attributes>persona2: Persona
+--
+nombre: str = "Ana"
+apellido: str = "Rios Garin"
+edad: int = 19</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>310</y><w>210</w><h>80</h></coordinates><panel_attributes>persona1: Persona
+--
+nombre: str = "Mercedes"
+apellido: str = "Atim"
+edad: int = 36</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>250</y><w>200</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>180;10;10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>250</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;160;10;160;60</additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>180</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>

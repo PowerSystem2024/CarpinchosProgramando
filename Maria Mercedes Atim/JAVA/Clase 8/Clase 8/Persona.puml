@@ -1,0 +1,38 @@
+@startuml
+class Persona {
+  -nombre: String
+  -edad: int
+  -direccion: String
+  -genero: char
+  +getNombre(): String
+  +setNombre(String): void
+  +getEdad(): int
+  +setEdad(int): void
+  +getDireccion(): String
+  +setDireccion(String): void
+  +getGenero(): char
+  +setGenero(char): void
+}
+
+class Empleado extends Persona {
+  -idEmpleado: int
+  -sueldo: double
+  +getIdEmpleado(): int
+  +getSueldo(): double
+  +setSueldo(double): void
+}
+
+class Cliente extends Persona {
+  -idCliente: int
+  -fechaRegistro: Date
+  -vip: boolean
+  +getIdCliente(): int
+  +getFechaRegistro(): Date
+  +setFechaRegistro(Date): void
+  +isVip(): boolean
+  +setVip(boolean): void
+}
+
+Empleado --|> Persona
+Cliente --|> Persona
+@enduml

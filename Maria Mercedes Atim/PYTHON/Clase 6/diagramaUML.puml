@@ -1,0 +1,33 @@
+@startuml
+class Persona{
+    +nombre: str
+    +apellido: str
+    +edad: int
+    +mostrarDetalle()
+}
+
+class persona1{
+    +nombre = "Mercedes"
+    +apellido= "Atim"
+    +edad = 36
+    +mostrarDetalle(self, nombre, apellido, edad)
+}
+
+class persona2{
+    +nombre = "Ana"
+    +apellido= "Rios Garin"
+    +edad = 19
+    +mostrarDetalle(self, nombre, apellido, edad)
+}
+
+persona1 -|> Persona
+persona2 -|> Persona
+
+note right of persona1
+    instanceOf Persona
+end note
+
+note right of persona2
+    instanceOf Persona
+end note
+@enduml

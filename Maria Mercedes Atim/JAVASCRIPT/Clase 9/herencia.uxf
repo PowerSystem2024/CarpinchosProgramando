@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>220</x><y>20</y><w>210</w><h>230</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+_idPersona: number
+_nombre: string
+_apellido: string
+_edad: number
+contadorPersonas: int
+--
++ getIdPersona(): number
++ getNombre(): string
++ setNombre(nombre: string)
++ getApellido(): string
++ setApellido(apellido: string)
++ getEdad(): number
++ setEdad(edad: number)
++ toString(): string
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>310</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+_idEmpleado: number
+_sueldo: number
+--
++ get_idEmpleado(): Long
++ get_sueldo(): number
++ set_sueldo(sueldo: number): void
++ toString(): string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>310</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+--
+_idCliente: number
+_fechaRegistro: Date
+--
++ geIdCliente(): number
++ getFechaRegistro(): Date
++ setFechaRegistro(): Date
++ toString(): string</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>240</y><w>110</w><h>90</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;70;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>240</y><w>120</w><h>100</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>70;80;10;10</additional_attributes></element></diagram>

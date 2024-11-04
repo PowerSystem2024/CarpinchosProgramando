@@ -1,0 +1,36 @@
+@startuml
+!define RECTANGLE class
+
+' Primer diagrama (sin Object)
+RECTANGLE Persona {
+  -nombre
+  -edad
+}
+
+RECTANGLE Empleado {
+  -sueldo
+}
+
+Persona <|-- Empleado
+
+@enduml
+
+@startuml
+!define RECTANGLE class
+
+' Segundo diagrama (con Object)
+RECTANGLE Object
+
+RECTANGLE Persona {
+  -nombre
+  -edad
+}
+
+RECTANGLE Empleado {
+  -sueldo
+}
+
+Object <|-- Persona
+Persona <|-- Empleado
+
+@enduml

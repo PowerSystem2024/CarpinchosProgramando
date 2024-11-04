@@ -1,0 +1,14 @@
+@startuml
+ class Persona {
+        - String nombre
+        - double sueldo
+        - boolean eliminado
+        + Persona(String nombre, double sueldo, boolean eliminado)
+        + String getNombre()
+        + void setNombre(String nombre)
+        + double getSueldo()
+        + void setSueldo(double sueldo)
+        + boolean isEliminado()
+        + void setEliminado(boolean eliminado)
+    }
+@enduml
