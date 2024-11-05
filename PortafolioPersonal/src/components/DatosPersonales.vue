@@ -41,10 +41,12 @@ const telefono =  "+541133146155";
 
 <style scoped>
 h1 {
+  color:#858585;
   font-size: 2.5rem;
 }
 
 p {
+  color:#858585;
   font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
@@ -84,5 +86,9 @@ p {
 h3 {
   font-size: 1.2rem;
   font-weight: 600;
+}
+h4{
+  color:#858585;
+
 }
 </style>

@@ -10,9 +10,9 @@ fechaColor.value = [
 ];
 const educacion = ref ([]);
 educacion.value = [
-    {fecha: '2024', tittle: 'Tecnicatura Universitaria en Programacion', descripcion: 'Operación y programación de computadoras, desarrollo de programas en distintos lenguajes, análisis y control de sistemas informáticos.', enlace:'http:youtube.com'},
-    {fecha: '2023', tittle: 'Curso de Base de Datos', descripcion: 'Completé un curso intensivo sobre bases de datos, donde aprendí sobre modelado de datos, SQL y administración de bases de datos.', enlace:'https://www.coderhouse.com/ar/'},
-    {fecha: '2022', tittle: "Diplomado en Seguridad Informática", descripcion: "Realicé un diplomado especializado en seguridad informática, donde adquirí conocimientos sobre criptografía, gestión de riesgos, y técnicas de protección contra amenazas cibernéticas.", enlace: "https://www.seguridadinformatica.com" }
+    {fecha: '2024', title: 'Tecnicatura Universitaria en Programacion', descripcion: 'Operación y programación de computadoras, desarrollo de programas en distintos lenguajes, análisis y control de sistemas informáticos.', enlace:'https://www.frsr.utn.edu.ar/'},
+    {fecha: '2023', title: 'Curso de Base de Datos', descripcion: 'Completé un curso intensivo sobre bases de datos, donde aprendí sobre modelado de datos, SQL y administración de bases de datos.', enlace:'https://www.coderhouse.com/ar/'},
+    {fecha: '2022', title: "Diplomado en Seguridad Informática", descripcion: "Realicé un diplomado especializado en seguridad informática, donde adquirí conocimientos sobre criptografía, gestión de riesgos, y técnicas de protección contra amenazas cibernéticas.", enlace: "https://www.seguridadinformatica.com" }
   
 ]
 </script>
@@ -21,7 +21,7 @@ educacion.value = [
     <ul>
         <li v-for="(item, index) in educacion" :key="index" :style="{'--fecha-color': fechaColor[index].color}">
         <div class="fecha">{{ item.fecha }}</div>
-        <h3 class="tittle">{{ item.tittle }}</h3>
+        <h3 class="title">{{ item.title }}</h3>
         <div class="descripcion">{{ item.descripcion }}</div>
         <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
         <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
@@ -30,6 +30,10 @@ educacion.value = [
 </template>
 
 <style scoped>
+
+.enlace{
+    color: gray;
+}
 /*Estilos generales*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&displau=swap");
 
@@ -138,18 +142,18 @@ ul li .fecha::after{
 }
 
 /*Estilos para el titulo y la descripcion dentro de cada item */
-ul li .tittle,
+ul li .title,
 ul li .descripcion{
     background: var(--bgColor); /*Fondo del titulo y la descripcion, usando la variable definida */
     position: relative; /*Posiciona los elementos relativos a su contenedor */
     padding-inline: 1.5rem; /*Espaciado interno horizontal */ 
 }
 
-ul li .tittle{
-    overflow: hidden; /*Oculta cualquier contenido que se desborde */
+ul li .title{
+ color: rgb(105, 131, 139);
     padding-block-start: 1rem; /*Espaciado interno superior */
     padding-inline-end: 1rem; /*Espaciado interno inferior */
-    font-weight: 500; /*Hace el texto del titulo un poco mas grueso */
+    font-weight: bold; /*Hace el texto del titulo un poco mas grueso */
 }
 
 ul li .descripcion{
@@ -157,21 +161,9 @@ ul li .descripcion{
     font-weight: 300; /*Hace el texto de la descripcion mas delgado */
 }
 
-/*Estilos para las sombras debajo del titulo y la descripcion */
-ul li .tittle::before,
-ul li .descripcion::before{
-    content: "";  /*Elemento vacio para crear la sombra */
-    position: absolute; /*Posiciona la sombra respecto al contenedor del titulo o descripcion */
-    width: 90%; /*Ancho de la sombra */
-    height: 0.5rem; /*Altura de la sombra */
-    background: #586875; /*Color de fondo oscuro para simular una sombra */
-    left: 50%; /*Centra la sombra horizontalmente */
-    border-radius: 50%; /*Bordes redondeados para la sombra */
-    filter: blur(4px); /*Aplica un desenfoque para hacer la sombra mas suave */
-    transform: translate(-50%, 50%); /*Ajusta la posicion para centrar la sombra */
-}
 
-ul li .tittle::before{
+
+ul li .title::before{
     bottom: calc(100% + 0.125rem); /*Coloca la sombra debajo del titulo */
 }
 

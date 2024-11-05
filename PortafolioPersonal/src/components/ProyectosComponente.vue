@@ -15,7 +15,7 @@ const proyectos = ref([
     {
         id: 2,
         nombre: "Plataforma de Aprendizaje Online",
-        descripcion: "Diseña una plataforma donde los usuarios puedan inscribirse en cursos, ver contenido multimedia, y realizar exámenes.",
+        descripcion: "Diseñe una plataforma donde los usuarios puedan inscribirse en cursos, ver contenido multimedia, y realizar exámenes.",
         imagenes: [Aprendizaje],
     
     },

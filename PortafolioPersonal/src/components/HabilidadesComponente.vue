@@ -3,7 +3,8 @@
 import Javascript from  '/src/components/icons/icons/javascript.svg';
 import Python from '/src/components/icons/icons/python.svg';
 import Java from '/src/components/icons/icons/java.svg';
-import HTMLCSS from '/src/components/icons/icons/html-css.svg';
+import CSS from "/src/components/icons/icons/css.svg";
+import HTML from '/src/components/icons/icons/html-css.svg';
 import SQL from  '/src/components/icons/icons/sql.svg';
 import Reactjs from '/src/components/icons/icons/react.svg';
 import Vuejs from '/src/components/icons/icons/vue.svg';
@@ -21,6 +22,7 @@ import PostgreSQL from '/src/components/icons/icons/postgres.svg';
 import Español from '/src/components/icons/icons/arg.svg';
 import Ingles from '/src/components/icons/icons/eeuu.svg';
 
+
 import { ref } from 'vue';
 
 
@@ -32,9 +34,10 @@ const habilidades = ref([
         // Se crea un objeto con id, nombre, nivel e ícono
         { id: 1, nombre: 'JavaScript', nivel: 'Intermedio', icono: Javascript },
         { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: Python },
-        { id: 3, nombre: 'HTMLCSS', nivel: 'Avanzado', icono: HTMLCSS },
-        { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: Java },
-        { id: 5, nombre: 'SQL', nivel: 'Intermedio', icono: SQL }
+        { id: 3, nombre: 'HTML', nivel: 'Avanzado', icono: HTML },
+        { id: 4, nombre: 'CSS', nivel: 'Avanzado', icono: CSS },
+        { id: 5, nombre: 'Java', nivel: 'Intermedio', icono: Java },
+        { id: 6, nombre: 'SQL', nivel: 'Intermedio', icono: SQL }
         ]
     },
     {
@@ -106,6 +109,11 @@ const habilidades = ref([
 
 <style scoped>
 
+h3 {
+font-size: 25px; 
+color: gray;
+
+}
 .skills-contenedor {
     padding: 2rem;
 }
@@ -114,16 +122,16 @@ const habilidades = ref([
     margin-bottom: 20px;
 }
 
-.skills-categoria h3 {
+/*.skills-categoria h3 {
     display: flex;
     justify-content: left;
     margin-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
    color:  rgba(60, 60, 60, 0.66);
-    font-size: 1.4rem;
+   
     font-weight: bold;
 }
-
+*/
 .skills {
     display: flex;
     justify-content: space-evenly;
@@ -136,17 +144,16 @@ const habilidades = ref([
     justify-content: center;
     align-items: center;
     gap: 8px;
-    background-color: white;
+    background-color: #bdd6d2;
     padding: 0.3em;
     border-radius: 8px;
     box-shadow: #a5c8ca;
     flex: 1 1 159px;
     max-width: 240px;
+    font-size: 20px;
 }
 
-.skill:hover {
-    background-color: #c3ecee;
-}
+
 
 .skill img {
     width: 35px;
@@ -159,8 +166,10 @@ const habilidades = ref([
 }
 
 .skill:hover {
-    font-size: 1.3em;
+    font-size: 23px;
     transition: 1s ease;
+    background-color: #e3f8f9;
+
 }
 
 @media (max-width: 768px) {
