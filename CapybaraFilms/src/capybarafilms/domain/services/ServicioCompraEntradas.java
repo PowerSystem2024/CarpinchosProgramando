@@ -158,8 +158,8 @@ public Candy seleccionarCombo() {
         ¿Desea comprar algún combo de nuestro candy?
         1) Sí
         2) No""");
-
-    int opcionCombo;
+    Integer opcionCombo;
+    entrada.nextLine();
     while (true) {
         String input = entrada.nextLine(); 
         if (ServicioValidacion.esNumero(input) && input.length() > 0) {

@@ -15,3 +15,4 @@
 ### Semana del 14/10 al 20/10-> Wanda Lanatta
 ### Semana del 21/10 al 27/10 -> Nelson Ríos
 ### Semana del 28/10 al 03/11 -> Nicolás Mercado
+### Semana del 04/11 al 10/11 -> Ana Paula Ríos Garín

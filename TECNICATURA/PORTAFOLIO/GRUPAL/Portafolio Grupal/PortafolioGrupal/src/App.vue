@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="contenedor" id="app">
     <PortfolioCircle />
   </div>
 </template>

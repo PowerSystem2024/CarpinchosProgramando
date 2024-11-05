@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contenedor">
     <h1 class="title">Portafolios Carpinchos Programando</h1>
     <div class="introduction">
       <p class="group-description">
@@ -11,7 +11,7 @@
       </p>
     </div>
 
-    <div class="circle">
+    <div class="circle" v-if="windowWidth > 600">
       <div
         v-for="(student, index) in students"
         :key="index"
@@ -21,14 +21,21 @@
         <img :src="student.image" :class="['student-image', student.size]" />
         <a :href="student.portfolio"
           class="node-link"
-          :style="getLinkStyle(index, index)">{{ student.name }}</a>
+          :style="getLinkStyle(index)">{{ student.name }}</a>
+      </div>
+    </div>
+
+    <div v-else class="list-container">
+      <div v-for="student in students" :key="student.name" class="student-list-item">
+        <img :src="student.image" class="student-image" />
+        <a :href="student.portfolio" class="node-link">{{ student.name }}</a>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 
 // Importar imágenes
 import MelinaImage from '@/assets/Melina.png';
@@ -48,6 +55,20 @@ const students = ref([
   { name: "Rios, Nelson Omar", portfolio: "https://nelsonrios.netlify.app/", image: NelsonImage, size: 'large-image' }, // Más grande
   { name: "Rios Garin, Ana Paula", portfolio: "https://anapaulariosgarin.netlify.app/", image: AnaImage, size: 'medium-image' },
 ]);
+
+const windowWidth = ref(window.innerWidth);
+
+function updateWindowWidth() {
+  windowWidth.value = window.innerWidth;
+}
+
+onMounted(() => {
+  window.addEventListener('resize', updateWindowWidth);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateWindowWidth);
+});
 
 function getNodeStyle(index) {
   const angle = (index / students.value.length) * 2 * Math.PI;
@@ -73,7 +94,7 @@ function getLinkStyle(index) {
   const colors = [
     'OrangeRed',
     'magenta',
-    'GreenYellow',
+    '#FFFF00',
     'deeppink',
     'Green',
     'aqua',
@@ -132,7 +153,7 @@ function getLinkStyle(index) {
   width: 300px;
   height: 300px;
   margin: 20px auto 0;
-  border: 10px solid rgb(255, 255, 0);
+  border: 10px solid #FF6F61;
   border-radius: 50%;
   background-color: transparent;
 }
@@ -182,5 +203,61 @@ function getLinkStyle(index) {
   font-weight: bolder;
   font-size: 20px;
   text-decoration: none;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.student-list-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.student-list-item img {
+  margin-right: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .contenedor{
+  min-width: 250px;
+  }
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color:rgb(33, 93, 214);
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .node {
+    width: 60px;
+  }
+
+  .student-image {
+    width: 85px; /* Ajusta según sea necesario */
+    height: 75px; /* Mantiene la proporción */
+  }
+
+  .node-link {
+    font-size: 20px; /* Tamaño de fuente más pequeño */
+    margin-left: 20px;
+    text-align: end;
+    text-decoration: underline;
+    color: blue;
+    }
+
+  .group-description {
+    font-size: 22px; /* Tamaño de fuente más pequeño */
+    margin-bottom: 100px; /* Ajusta el margen inferior */
+  }
 }
 </style>

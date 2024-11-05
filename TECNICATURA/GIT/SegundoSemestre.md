@@ -26,13 +26,13 @@ Sin embargo, esto solo funciona para las personas que quieren empezar a contribu
 
 Cómo conectar un repositorio de GitHub a nuestro documento local: Si queremos conectar el repositorio de GitHub con nuestro repositorio local, que creamos aconsejo que al trabajar desde GitHub no utilizemos localmente el comando git init, si debemos ejecutar las siguientes instrucciones:
 
-* [ ]  **Guardar la URL del repositorio de GitHub con el nombre de origin**
-* [ ]  **git remote add origin URL**
+* [ ] **Guardar la URL del repositorio de GitHub con el nombre de origin**
+* [ ] **git remote add origin URL**
 
 **Verificar que la URL se haya guardado correctamente:**
 
-* [ ]  **git remote**
-* [ ]  **git remote -v**
+* [ ] **git remote**
+* [ ] **git remote -v**
 
 ![capturaGit2](https://github.com/user-attachments/assets/374bfd26-94f0-4bf0-88b0-4ecb3192d74e)
 
@@ -289,13 +289,14 @@ git tag
 ### Intentar crear el mismo tag nuevamente provocará un error
 
 git tag v1.0
+
 ### Esto producirá un error: "fatal: tag 'v1.0' already exists".
 
 ![CapturaGit25](https://github.com/user-attachments/assets/6f3d11f0-d413-48fb-8dfe-a6b4fd9caa18)
 
 ### Si necesitas cambiar el tag (por ejemplo, apuntarlo a un commit diferente), deberás eliminar el tag existente primero, ya que no puedes sobrescribirlo directamente.
 
-      ```bash
+    ```bash
       git tag -d v1.0  # Elimina el tag
       git tag v1.0 -m "nuevoCommit"
 
@@ -305,21 +306,20 @@ git tag v1.0
 
 ### Considera usar tags anotados en lugar de tags ligeros. Los tags anotados incluyen más información (como el autor y la fecha) y son más fáciles de manejar:
 
-      ```bash
-        git tag -a v1.0 -m "Versión 1.0"  # Crea un tag anotado
-![CapturaGit27](https://github.com/user-attachments/assets/e15d842b-a3f7-4438-8081-7c30a9d343c6)
+    ```bash
+        git tag -a v1.0 -m "Versión 1.0"  # Crea un tag anotado![CapturaGit27](https://github.com/user-attachments/assets/e15d842b-a3f7-4438-8081-7c30a9d343c6)
 
 ### Para ver la información de un tag anotado en Git, puedes usar el siguiente comando:
 
-      ```bash
+    ```bash
         git show Version4.0
+
 ### Tambien se pueden ver los detalles de los tags con este comando:
 
 ### Ver detalles de todos los tags:
 
-      ```bash
-        git show-ref --tags
-![CapturaGit28](https://github.com/user-attachments/assets/747a8e40-6018-425f-80dc-5c6259610ab0)
+    ```bash
+        git show-ref --tags![CapturaGit28](https://github.com/user-attachments/assets/747a8e40-6018-425f-80dc-5c6259610ab0)
 
 # **Clase 7**
 
@@ -343,6 +343,7 @@ git tag v1.0
 sudo apt-get update
 sudo apt-get install gitk
 ```
+
 ## Repasa: ¿Qué es Git?
 
 ##### Las ramas nos permiten hacer cambios a nuestros archivos sin modificar la versión principal (main). Puedes trabajar con ramas que nunca envías a GitHub, así como pueden haber ramas importantes en GitHub que nunca uses en el repositorio local. Lo crucial es que **aprendas a manejarlas** para trabajar profesionalmente.
@@ -485,3 +486,9 @@ Asignar una rama a cada programador
 ![clase 10 git](https://github.com/user-attachments/assets/d671b68e-3eed-4e24-a213-0dd4f3cab365)
 
 # **Clase 11**
+
+#### **Flujo de trabajo profesional -> Archivos binarios**
+
+###### Las imagenes cargandolas en el repositorio, representan un problema: porque las imagenes son pesadas, y si la subimos al repositorio, siempre que hagamos cambios, vamos a estar trayendo la imagen siempre, estas imagenes son binarios para GitHub, mientras mas binarios carguemos, más pesado va a ser el repositorio, algo que no es parte de las buenas practicas.
+
+###### Otra cosa muy importante a tener en cuenta, es que en cada commit que hagamos hay un tamaño predefinido para la carga, este no lo podemos superar o no podremos subir los commits, el tamaño es 100 mb, si acoplamos un archivo binario en un commit que pese mas de esto, será un problema, no nos dejará seguir commiteando, porque siempre seguirá arrastrando el archivo binario.

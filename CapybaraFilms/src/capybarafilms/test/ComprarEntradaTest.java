@@ -37,11 +37,14 @@ public class ComprarEntradaTest {
         System.out.println("");
         
         Candy combo = servicioCompra.seleccionarCombo();
+        System.out.println("");
         
         Reserva reserva = servicioCompra.realizarReserva(cliente, sala, combo, butacasAsignadas);
-
+        System.out.println("");
+        
         reserva.mostrarResumen();
+        System.out.println("");    
 
-        System.out.println("¡Gracias por su compra, " + cliente.getNombre() + "!");
+        System.out.println("¡Gracias por su compra, " + cliente.getNombre() + "! Disfrute la funcion!");
     }
 }
