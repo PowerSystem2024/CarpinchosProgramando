@@ -108,3 +108,16 @@
 8. Creamos test_polimorfismo, método de polimorfismo
 9. Pruebas con otro objeto y método
 10. Prueba de errores y validación con: método isinstance()
+
+###### Clase 12:
+
+1. Diagrama UML MundoPc
+2. Teoria y Explicación del diagrama
+3. Creamos la clase padre: DispositivoEntrada
+4. Creamos la clase hija: Ratón
+5. Creamos la clase hija: Teclado
+6. Creamos una clase independiente: Monitor
+7. Creamos la clase independiente: Computadora
+8. Creamos la clase independiente: Orden
+9. Creamos la clase para realizar las pruebas de MundoPc TestMundoPc
+10. Comenzamos las pruebas: Creamos objetos y arrays para las ordenes.
