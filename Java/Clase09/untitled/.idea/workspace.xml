@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cc397a8-21ee-4e82-b079-2037330d200f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Caja/Caja.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Clase04/EjercicioCiclos2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Clase04/EjercicioLeerNumerosCalcularPromedioJOptionPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Clase04/EjercicioLeerNumerosCalcularPromedioScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Clase04/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Clase04/PruebaPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Operaciones/Aritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/Clase4/untitled/src/Operaciones/PruebaAritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/EjercicioCiclos08/EjercicioCiclos08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/EjerciciosCiclos10/EjerciciosCiclos10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/LeccionClaseObjetos/LeccionClaseObjetos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/PasoValor/PasoValor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase04/aritmetica/aritmetica.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase05/.idea/Leccion5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/Clase06/Clase06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/Clase06/Ejercicio10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/Clase06/sobrecargaDeMetodos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/Persona/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/Persona/PruebaPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/pasoPorReferencia/pasoPorReferencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase06/Clase6/Clase6/src/pasoPorValor/pasoPorValor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase07/Aritmetica/herencia.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase07/Aritmetica/src/Ciclos/Ciclos11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase07/Aritmetica/src/Ciclos/Ciclos12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase07/Aritmetica/src/Encapsulamientos/Dominio/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase07/Aritmetica/src/Operaciones/PruebaAritmetica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase08/Clase08/src/Domain/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase08/Clase08/src/Dominio/herencia.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase08/Clase08/src/Dominio/herencia2.uxf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Clase08/Clase08/src/test/PruebaPersona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/Ejercicio02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/Ejercicio02/src/Ejercicio02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/EjercicioCiclo02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclo02/src/Clase2/EjercicioCiclo02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos01/EjercicioWhile01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/EjercicioCiclos03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/src/Ciclos03/Ciclos03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion2/EjercicioCiclos03/src/Ciclos03/Ejercicio03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/EjercicioCiclos05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/Scs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/Ciclos05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/EjercicioCiclos05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos05/Ciclos05/src/Ciclos05/Ciclos05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/EjercicioCiclos06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/src/Ciclos06/Ciclos06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos06/src/Ciclos06/EjercicioCiclos06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/EjercicioCiclos07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/src/Ciclos07/Ciclos07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjercicioCiclos07/src/Ciclos07/EjercicioCiclos07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/Ciclos04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/src/Ciclos04/Ciclos04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion3/EjerciciosCiclos04/src/Ciclos04/Ejercicio04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/Caja.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/src/Caja/Caja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/Caja/src/Caja/PruebaCaja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/EjercicioCiclos08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/src/Ciclos08/Ciclos08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjercicioCiclos08/src/Ciclos08/EjercicioCiclos08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/Ciclos09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/src/Ciclos09/Ciclos09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos09/src/Ciclos09/EjercicioCiclos09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/EjerciciosCiclos10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/EjerciciosCiclos10/src/Ciclos10/EjercicioCiclos10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/LeccionClaseObjetos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/src/PasoPorReferencia/PasoPorReferencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/src/Persona/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/LeccionClaseObjetos/src/Persona/PruebaPersona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/PasoValor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/PasoValor/src/PasoPorValor/PasoPorValor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/aritmetica.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/src/Operaciones/Aritmetica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion4/aritmetica/src/Operaciones/PruebaAritmetica.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/Leccion5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/ContextoEstatico.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/src/domain/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/ContextoEstatico/src/test/PersonaPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/Encapsulamiento.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/src/dominio/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/Encapsulamiento/src/test/PersonaPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Clase07/herencia.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/EjercicioCiclos11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjercicioCiclos11/src/Ciclos11/Ciclos11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/EjerciciosCiclos12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/EjerciciosCiclos12/src/Ciclos12/Ciclos12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion5/Persona/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/Persona.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/herencia.uxf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/src/Domain/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/src/Domain/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/src/Domain/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion6/Persona/src/Test/TestHerencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/src/operaciones/Operaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/SobrecargaMetodos/src/test/TestOperaciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/build/classes/ar/com/codesystem/Utileria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/build/classes/test/testUtileria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/src/ar/com/codesystem/Utileria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Leccion7/paquetes/src/test/testUtileria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/Empleado$Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/domain/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/domain/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/build/classes/test/TestFinal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/src/domain/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/src/domain/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/PalabraFinal/src/test/TestFinal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/domain/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/domain/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/domain/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/herencia/Herencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/build/classes/test/TestHerencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/src/domain/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/src/domain/Empleado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/src/domain/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/src/herencia/Herencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lección8/SobrecargaDeConstructores/Herencia/src/test/TestHerencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaScript/Tecnicatura3JS/TSleccion01/Leccion09/Herencia/Persona.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaScript/Tecnicatura3JS/TSleccion01/Leccion09/Herencia/Persona.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaScript/Tecnicatura3JS/TSleccion01/Leccion09/Herencia/PruebaPersona.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaScript/Tecnicatura3JS/TSleccion01/Leccion09/Herencia/PruebaPersona.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/DatosPersonales.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/DatosPersonales.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/EducacionComponente.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/EducacionComponente.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/ExperienciaComponente.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/ExperienciaComponente.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/HabilidadesComponente.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/HabilidadesComponente.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/ProyectosComponente.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PortafolioPersonal/src/components/ProyectosComponente.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2oPJqCbF01pcMB73wG5hEH8TXVW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "WandaLanatta",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "configurable.group.language"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cc397a8-21ee-4e82-b079-2037330d200f" name="Changes" comment="" />
+      <created>1730765467230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730765467230</updated>
+    </task>
+    <servers />
+  </component>
+</project>
