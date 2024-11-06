@@ -33,3 +33,7 @@ npm run build
 ```sh
 npm run lint
 ```
+Mi portafolio en version oscuro :
+![Portafolio](src/assets/ModoOscuro.png)
+Mi porfafolio en version claro :
+![Portafolio](src/assets/ModoClaro.png)
