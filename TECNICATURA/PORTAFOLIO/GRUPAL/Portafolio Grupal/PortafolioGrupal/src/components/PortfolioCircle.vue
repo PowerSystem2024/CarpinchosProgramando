@@ -35,23 +35,23 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 
 // Importar imágenes
-import MelinaImage from '@/assets/Melina.png';
-import MarianaImage from '@/assets/Mariana.png';
-import MercedesImage from '@/assets/Mercedes.png';
-import WandaImage from '@/assets/Wanda.png';
-import NicolasImage from '@/assets/Nicolas.png';
-import NelsonImage from '@/assets/Nelson.png';
 import AnaImage from '@/assets/Ana.png'; // Cambiado a Ana.png
+import MarianaImage from '@/assets/Mariana.png';
+import MelinaImage from '@/assets/Melina.png';
+import MercedesImage from '@/assets/Mercedes.png';
+import NelsonImage from '@/assets/Nelson.png';
+import NicolasImage from '@/assets/Nicolas.png';
+import WandaImage from '@/assets/Wanda.png';
 
 const students = ref([
   { name: "Aguilar, Melina Elizabeth", portfolio: "https://portafolio-vuejs-melina.netlify.app/", image: MelinaImage, size: 'peque-image' },
   { name: "Aguilera, Mariana Florencia", portfolio: "https://marianafaguilera.netlify.app/", image: MarianaImage, size: 'small-image' },
   { name: "Atim, Maria Mercedes", portfolio: "https://mariamercedesatim.netlify.app/", image: MercedesImage, size: 'medium-image' },
   { name: "Lanatta, Wanda Oriana", portfolio: "https://wandalanatta.netlify.app/", image: WandaImage, size: 'medium-image' },
-  { name: "Mercado, Nicolas Exequiel", portfolio: "/portafolio5", image: NicolasImage, size: 'larger-image' }, // Más grande
+  { name: "Mercado, Nicolas Exequiel", portfolio: "https://nicolasexemercado.netlify.app/", image: NicolasImage, size: 'larger-image' }, // Más grande
   { name: "Rios, Nelson Omar", portfolio: "https://nelsonrios.netlify.app/", image: NelsonImage, size: 'large-image' }, // Más grande
   { name: "Rios Garin, Ana Paula", portfolio: "https://anapaulariosgarin.netlify.app/", image: AnaImage, size: 'medium-image' },
 ]);
