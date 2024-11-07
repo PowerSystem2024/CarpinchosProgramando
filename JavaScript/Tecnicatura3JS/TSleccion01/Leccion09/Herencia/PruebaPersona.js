@@ -102,5 +102,5 @@ console.log(empleado1.toString());
 
 // PRUEBA CLIENTE
 
-let cliente1 = new Cliente("Clientito","client1",44, new Date())
+let cliente1 = new Cliente("Cliente","client1",44, new Date())
 console.log(cliente1.toString()); 

@@ -39,6 +39,6 @@ class Persona {
     
 }
 
-let p1 = new Persona("ale","ale",24);
+let p1 = new Persona("Wan","Wan",24);
 
 console.log(p1.toString())
