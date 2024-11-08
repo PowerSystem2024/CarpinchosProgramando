@@ -10,11 +10,9 @@
 
 **Universidad Tecnológica Nacional, San Rafael, Mendoza, Argentina**
 
-## Cátedra 📖
+## Cátedra 📖 Programación II
 
-## Programación II
-
-## Integrantes 👨‍💻👩‍💻
+## Integrantes: 
 
 - **[Aguilar, Melina](https://github.com/Melina-Aguilar)** ![carpincho (2)](https://github.com/user-attachments/assets/34c61984-7f45-403c-a3ae-a57dd16a27bf)
 
@@ -49,7 +47,14 @@ A través de este repositorio en GitHub, compartimos nuestras creaciones, soluci
 
 ## Proyectos
 
-Aquí encontrarás nuestros proyectos y prácticas, cada uno con su propia documentación y propósito. Nos esforzamos por crear soluciones creativas y efectivas que reflejen nuestro crecimiento y conocimientos.
+### En este repositorio encontrarás dos carpetas principales:
+
+## *Capybara Films:* 
+En esta carpeta se encuentra el proyecto integrador de Java, una aplicación de cine que permite a los usuarios comprar entradas para funciones, así como adquirir combos en nuestro Candy Store. La aplicación ofrece una amplia variedad de películas, creando una experiencia completa para los amantes del cine.
+
+## *TECNICATURA:* 
+En esta carpeta se incluyen todos los códigos desarrollados en los lenguajes Java, Python y JavaScript a lo largo de nuestro trayecto formativo durante este cuatrimestre. Además, en TECNICATURA podrás encontrar los portafolios individuales de cada integrante de Carpinchos Programando, los cuales fueron desarrollados con Vue.js. También se encuentra el portafolio grupal, que resume el trabajo colaborativo realizado por todo el equipo.
+Es importante destacar que los subdirectorios correspondientes a las cátedras de Java, JavaScript y Python fueron subidos al repositorio por cada miembro del grupo que fungió como Scrum Master durante cada semana del cuatrimestre. Cada semana, el Scrum Master del equipo gestionaba las reuniones, organizaba las tareas y aseguraba el cumplimiento de los objetivos establecidos en colaboración con los demás miembros del grupo. Este proceso fue realizado utilizando la metodología ágil, en la cual el Scrum Master facilitó el trabajo del equipo, asegurando que todos los miembros cumplieran con sus responsabilidades y entregas de manera eficaz.
 
 ¡Gracias por visitar nuestro repositorio y ser parte de nuestra comunidad!
 
