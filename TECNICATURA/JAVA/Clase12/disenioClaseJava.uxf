@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>10</x><y>40</y><w>300</w><h>530</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>140</w><h>30</h></coordinates><panel_attributes>Un dominio, dirección</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>310</y><w>260</w><h>250</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+- idProducto: int
+- nombre: String
+- precio: double
+_- contadorProductos: int_
+--
+- Producto()
++ Producto(nombre: String, precio: double)
++ getIdProducto(): int
++ getNombre(): String
++ setNombre(nombre: String): void
++ getPrecio(): double
++ setPrecio(precio: double): void
++ toString(): String
+--
+Responsibilidades
+- Crear objetos de tipo producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>50</y><w>240</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+- idOrden
+- producto[]: Producto
+- ContadorOrdenes: int
+_MAX_PRODUCTOS: int = 10_
+--
++ Orden()
++ agregarProducto(producto: Producto)
++ calcularTotal(): double
++ mostrarOrden(): void
+--
+Responsibilidades
+-- Crear objetos Orden
+-- Administrar los productos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>250</y><w>240</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Un producto se agrega a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>10</y><w>100</w><h>30</h></coordinates><panel_attributes>TestVentas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>40</y><w>300</w><h>160</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>60</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;VentasTest&gt;&gt;
+--
++ main(args: String[]): void
+--
+Responsibilidades
+-- Ejecutar la prueba de las 
+    aplicaciones de ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>20</y><w>300</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.&gt;&gt;</panel_attributes><additional_attributes>10;10;280;10</additional_attributes></element></diagram>
