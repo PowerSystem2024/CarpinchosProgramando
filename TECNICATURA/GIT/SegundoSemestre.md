@@ -381,6 +381,8 @@ Ahí, debemos añadir el email o username de los nuevos colaboradores.**
 
 ![1728673386167](images/SegundoSemestre/1728673386167.png)
 
+![CapturaGit33](https://github.com/user-attachments/assets/4257e692-638c-4be5-8ea5-8e4fd60d48e7)
+
 **Si como colaborador, agregaste erróneamente el mensaje del commit, lo puedes cambiar de la siguiente manera:**
 
 **Hacer un commit con el nuevo mensaje que queremos, esto nos abre el editor de texto de la terminal:**
@@ -391,13 +393,19 @@ git pull origin main # Traer el repositorio remoto
 
 git push --set-upstream origin main  # Ejecutar el cambio, el error arreglado
 
+![CapturaGit34](https://github.com/user-attachments/assets/2eabe989-0de5-4c57-bf45-79e3991fdb32)
+
 Comienzo del colaborador
 
 cd Documentos  # Abre git bash
 
 mkdir class-git  # Crea la carpeta o directorio de trabajo
 
+![CapturaGit35](https://github.com/user-attachments/assets/52f86c46-f46f-42e2-82bf-f33ff8b585bb)
+
 ls -al  # Revisa lo que va haciendo, los archivos o directorios que tiene
+
+![CapturaGit36](https://github.com/user-attachments/assets/578a9fc9-320c-4469-8d42-9c96a5a150a5)
 
 ##### 1. No debe hacer un git init, debe buscar el repositorio en el cual esta invitado a participar, por supuesto en GitHub.
 
@@ -408,6 +416,8 @@ ls -al  # Revisa lo que va haciendo, los archivos o directorios que tiene
 git clone url-copiada-github #Esto hace que clonemos el repositorio
 
 ##### 4. No pide ni usuario ni contraseña si el repositorio es publico.
+
+![CapturaGit37](https://github.com/user-attachments/assets/ab208669-eff4-4178-8424-c98b42c21bd3)
 
 code . #Abre VSC y comienza con cambios, o abre el siguiente comando para hacer modificaciones
 
@@ -431,6 +441,8 @@ git status
 
 git commit -am "Mi primer commit, estoy muy emocionado!!!"
 
+![CapturaGit38](https://github.com/user-attachments/assets/9316fc1e-dad6-4be4-9d13-0ad1d543b639)
+
 git pull origin main
 
 git fetch
@@ -439,7 +451,11 @@ gti branch #Para ver las ramas que se trajo, no se trae sino solo main, si hay m
 
 git log #Para ver toda las historia
 
+![CapturaGit39](https://github.com/user-attachments/assets/cb666bb9-12f6-496f-b2af-d13210911eaf)
+
 git log --graph #Vemos el grafico de las diferentes ramas y del commit que acabamos de hacer que esta en el main, Git es una base de datos de toda las historia de todo lo que se ha hecho
+
+![CapturaGit40](https://github.com/user-attachments/assets/b757ab77-1802-49c8-b02d-ac0fe8e2860a)
 
 git push origin main #Va a pedir un email que será el del colaborador, su contraseña.
 
@@ -463,7 +479,11 @@ git fetch
 
 git log --stat #Se verá claro que el colaborador ingreso su primer commit
 
+![CapturaGit41](https://github.com/user-attachments/assets/422a72a8-7f47-4e1f-8a92-29705e43e161)
+
 ##### 10. A partir de ahora el dueño del repositorio y el colaborador deberán repartir el trabajo, esto se hace con distintas ramas de trabajo: el dueño trabajará desde la rama header y el colaborador desde la rama footer, al final cuando se termine, se hara un merge para terminar el proyecto.
+
+![CapturaGit42](https://github.com/user-attachments/assets/c66c1b94-de34-46ec-a1b6-cd4b519af5da)
 
 # **Clase 10**
 
@@ -483,12 +503,16 @@ Asignar una rama a cada programador
 • El programador sube su trabajo con git push origin #nombre_rama
 • El encargado de organizar el proyecto baja, revisa y unifica todos los cambios.
 
+![CapturaGit43](https://github.com/user-attachments/assets/3e985b5f-aa15-4d0f-a31a-480297895842)
+
 ![clase 10 git](https://github.com/user-attachments/assets/d671b68e-3eed-4e24-a213-0dd4f3cab365)
 
-# **Clase 11**
+![CapturaGit44](https://github.com/user-attachments/assets/b1c1d746-63d5-48f8-ac98-e766979a2120)
 
-#### **Flujo de trabajo profesional -> Archivos binarios**
+# **Clase 11: Solo Teoría**
 
-###### Las imagenes cargandolas en el repositorio, representan un problema: porque las imagenes son pesadas, y si la subimos al repositorio, siempre que hagamos cambios, vamos a estar trayendo la imagen siempre, estas imagenes son binarios para GitHub, mientras mas binarios carguemos, más pesado va a ser el repositorio, algo que no es parte de las buenas practicas.
+## **Flujo de trabajo profesional -> Archivos binarios**
 
-###### Otra cosa muy importante a tener en cuenta, es que en cada commit que hagamos hay un tamaño predefinido para la carga, este no lo podemos superar o no podremos subir los commits, el tamaño es 100 mb, si acoplamos un archivo binario en un commit que pese mas de esto, será un problema, no nos dejará seguir commiteando, porque siempre seguirá arrastrando el archivo binario.
+### Las imagenes cargandolas en el repositorio, representan un problema: porque las imagenes son pesadas, y si la subimos al repositorio, siempre que hagamos cambios, vamos a estar trayendo la imagen siempre, estas imagenes son binarios para GitHub, mientras mas binarios carguemos, más pesado va a ser el repositorio, algo que no es parte de las buenas practicas.
+
+### Otra cosa muy importante a tener en cuenta, es que en cada commit que hagamos hay un tamaño predefinido para la carga, este no lo podemos superar o no podremos subir los commits, el tamaño es 100 mb, si acoplamos un archivo binario en un commit que pese mas de esto, será un problema, no nos dejará seguir commiteando, porque siempre seguirá arrastrando el archivo binario.
