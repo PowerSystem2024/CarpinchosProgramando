@@ -12,8 +12,7 @@ agenda = {
     'Mariana': {'Número': '11 2140-2421'},
     'Wanda': {'Número': '11 3242-7864'},
     'Nicolás': {'Número': '11 7640-5620'},
-    'Melina': {'Número': '11 5547-9986'},
-    'Cirano': {'Número': '11 3258-0970'},
+    'Melina': {'Número': '11 5547-9986'}
 }
 
 def menu():

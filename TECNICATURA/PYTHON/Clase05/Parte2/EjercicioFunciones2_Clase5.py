@@ -14,4 +14,3 @@ numeros = [int(x) for x in numeros.split(" ")]
 
 resultado = multiplicar(*numeros)
 print(f"El resultado de la multiplicación es: {resultado}")
-    

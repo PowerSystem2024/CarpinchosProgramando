@@ -10,4 +10,3 @@ numeros = map(float, ingresoNum.split())
 resultado = suma(*numeros)
 
 print(f'El resultado de la suma es: {resultado}')
- 
