@@ -1,5 +1,7 @@
 
-package Clases;
+package clase6.Clases;
+
+import clase6.Clases.Persona;
 
 public class PruebaPersona {
     public static void main(String[] args) {
@@ -21,8 +23,8 @@ public class PruebaPersona {
         Persona persona2 = new Persona();
         System.out.println("persona2 = " + persona2);
         persona2.obtenerInformacion();
-        persona2.nombre = "Lucas";
-        persona2.apellido = "Cerbino";
+        persona2.nombre = "Nelson";
+        persona2.apellido = "Ríos";
         persona2.obtenerInformacion();
         
     }

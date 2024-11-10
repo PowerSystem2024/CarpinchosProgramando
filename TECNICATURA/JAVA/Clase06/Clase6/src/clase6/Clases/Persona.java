@@ -1,5 +1,5 @@
 
-package Clases;
+package clase6.Clases;
 
 public class Persona {
     // Atributos de la clase (Características)

@@ -1,9 +1,9 @@
 
-package pasoPorReferencia;
+package clase6.pasoPorReferencia;
 
 // Se importa la clase Persona desde el paquete Clases
 // import paquete.clase;
-import Clases.Persona;
+import clase6.Clases.Persona;
 
 /* Paso Por Referencia
     Es el acceso del uso de una clase. En este caso, la clase Persona.

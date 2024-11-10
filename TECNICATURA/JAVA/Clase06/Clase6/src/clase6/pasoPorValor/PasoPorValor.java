@@ -1,5 +1,5 @@
 
-package pasoPorValor;
+package clase6.pasoPorValor;
 
 /* Paso por Valor
     El paso por valor es una copia de los valores que reciben la variable 
