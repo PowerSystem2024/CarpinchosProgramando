@@ -1,8 +1,7 @@
 package capybarafilms.domain.services;
 
-import java.util.Scanner;
-
 import capybarafilms.domain.entities.Cliente;
+import java.util.Scanner;
 
 public class ServicioValidacion {
 
